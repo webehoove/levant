@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="ru-RU">
 <head>
-<title>Тини Вини | Английский для детей</title>
+<title>Левант | Брендинг</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <meta name = "description" content = "Школа английского языка для детей 6-12 лет" />
@@ -21,6 +21,7 @@
 <link rel="stylesheet" href="assets/css/rowmain.css" />
 <link rel="stylesheet" href="assets/css/xmain.css" />
 <link rel="stylesheet" href="assets/css/topmenu.css" />
+<link rel="stylesheet" href="assets/css/gallery.css" />
 <link rel="stylesheet" href="assets/css/color.css" />
 <noscript>
 <link rel="stylesheet" href="assets/css/noscript.css" />
@@ -44,12 +45,30 @@
 .video-desktop, .img-desktop {
 	display: block;
 }
+.first-logo, .second-logo {
+	transition: opacity 0s ease-in-out;
+}
+.first-logo {
+	opacity: 1;
+}
+.second-logo {
+	opacity: 0;
+}
+.scroll-down .first-logo {
+	opacity: 0;
+}
+.scroll-down .second-logo {
+	opacity: 1;
+}
 @media (max-width: 768px) {
 .video-mobile, .img-mobile {
 	display: block;
 }
 .video-desktop, .img-desktop {
 	display: none;
+}
+.logo-container {
+	margin-top: 0.1rem;
 }
 }
 </style>
@@ -66,7 +85,7 @@
             <li><a href="https://vk.ru/english4younglearners" target="new" name="VK"><img src="imgs/icons/vk_icon_b.svg" onContextMenu="return false;" alt="Тини Вини | VK" /></a></li>
             <li><a href="https://t.me/teenyweenyenglish" target="new" name="Telegram"><img src="imgs/icons/teleg_icon_b.svg" onContextMenu="return false;" alt="Тини Вини | Telegram" /></a></li>
           </ul>
-          <div id="logotype_sym"><a href="https://webehoove.github.io/teenyweeny/"><img src="imgs/brand/tw_logotype_db_r_shadow.svg" class="logo" onContextMenu="return false;" alt="Тини Вини | Английский для детей" /></a> </div>
+          <div id="logotype_sym"><img src="imgs/brand/levant_symbol_pl_c_w.svg" onContextMenu="return false;" alt="Левант | Брендинг" /></div>
         </div>
         <div class="menumob col-1 col-12-small">
           <input type="checkbox" id="active" name="x">
@@ -102,26 +121,26 @@
   
   <!-- BANNER -->
   
-  <section class="wrapper style3 color_grey align-center">
+  <section class="wrapper style3 color_dblue align-center">
     <div class="inner" style="background-color:transparent;">
       <div class="row">
         <div id="hideitlow" class="col-12 off-12-small">
           <div class="container_logotype_lockup_t">
-            <div class="logotype_lockup_t"><a href="https://webehoove.github.io/teenyweeny/"><img src="imgs/brand/tw_logotype_db_r_shadow.svg" onContextMenu="return false;" alt="Тини Вини | Английский для детей" /></a></div>
+            <div class="logotype_lockup_t"><img src="imgs/brand/levant_symbol_ol_w_0.svg" onContextMenu="return false;" alt="Левант | Брендинг" /></div>
           </div>
         </div>
         <div id="hideitlow" class="col-12 off-12-small">
-          <ul class="topmenu xbd_tx">
+          <ul class="topmenu bd_tx">
             <li><a href="https://webehoove.github.io/teenyweeny/text-and-play/" class="hover_underline">О школе</a></li>
             <li>
               <div class="dropdown">
-                <div class="dropmenu dropbtn"><a href="https://webehoove.github.io/teenyweeny/brand-experience/">Программы</a></div>
-                <div class="dropdown-content"> <a href="https://webehoove.github.io/teenyweeny/brand-experience/social-media/" class="button medium apurple">Социальные сети</a> <a href="https://webehoove.github.io/teenyweeny/brand-experience/banners/" class="button medium apurple">Банеры и постеры</a> <a href="https://webehoove.github.io/teenyweeny/brand-experience/layout-design/" class="button medium apurple">Компоновка и разметка</a> </div>
+                <div class="dropmenu dropbtn"><a href="https://webehoove.github.io/teenyweeny/brand-experience/">Наши программы</a></div>
+                <div class="dropdown-content"> <a href="https://webehoove.github.io/teenyweeny/brand-experience/social-media/">К школе готов!</a> <a href="https://webehoove.github.io/teenyweeny/brand-experience/social-media/">Интенсив по чтению</a> <a href="https://webehoove.github.io/teenyweeny/brand-experience/banners/">Творческие мастер-классы</a> <a href="https://webehoove.github.io/teenyweeny/brand-experience/layout-design/">Компоновка и разметка</a> </div>
               </div>
             </li>
             <li><a href="https://webehoove.github.io/teenyweeny/cat-hero/" class="hover_underline">Новости</a></li>
           </ul>
-          <ul class="topmenu_right xbd_tx">
+          <ul class="topmenu_right bd_tx">
             <li><a href="https://vk.ru/english4younglearners" target="new" name="VK"><img src="imgs/icons/vk_icon_b.svg" onContextMenu="return false;" alt="Тини Вини | VK" /></a></li>
             <li><a href="https://t.me/teenyweenyenglish" target="new" name="Telegram"><img src="imgs/icons/teleg_icon_b.svg" onContextMenu="return false;" alt="Тини Вини | Telegram" /></a></li>
             <li><a href="https://webehoove.github.io/teenyweeny/downloads/" class="button medium dblue">Контакты</a></li>
@@ -133,14 +152,9 @@
   
   <!-- VIDEO BANNER -->
   
-  <section class="banner style2 align-left">
+  <section class="banner style2 color_grey align-left">
     <div class="content">
-      <video class="hero-video video-mobile" autoplay loop muted playsinline poster="videos/tw_banner_cat_hero_english_for_mob.jpg">
-        <source src="videos/tw_banner_cat_hero_english_for_mob_.mp4" type="video/mp4">
-      </video>
-      <video class="hero-video video-desktop" autoplay loop muted playsinline poster="videos/tw_banner_cat_hero_english_for.jpg">
-        <source src="videos/tw_banner_cat_hero_english_for_.mp4" type="video/mp4">
-      </video>
+      <img src="imgs/levant_logotype_lockup_pres_db.svg" onContextMenu="return false;" alt="Левант | Брендинг" />
     </div>
   </section>
   
@@ -154,11 +168,14 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-12-small">
-          <h1 class="tap text_and_play t_color_nb offdesk">📚💭✏⭄</h1>
+        <div class="col-12 col-12-small"> 
+          <!-- <h1 class="tap text_and_play t_color_nb offdesk">📚💭✏⭄</h1> -->
+          <h3 class="bd_tx nols" style="line-height:.85;">Школа <br class="offdesk">
+            английского <br class="offdesk">
+            языка</h3>
           <hr class="block1">
-          <h1 class="blk_tx t_color_r nols_s">Приглашаем детей<br class="offmob_text"><span class="xblk_tx box_text color_box_blue t_color_db">6·12</span>лет на занятия<br class="offmob_text">
-            английским языком.</h1>
+          <h1 class="bd_tx nols_s">Приглашаем детей 6-12 лет на занятия<br class="offmob_text">
+            английским языком</h1>
           <hr class="mini">
         </div>
       </div>
@@ -175,19 +192,19 @@
       </div>
       <div class="row">
         <div class="col-12 col-12-small">
-          <hr class="block2">
+          <hr class="block1">
         </div>
       </div>
     </div>
   </section>
   
-  <!-- SERVICES -->
+  <!-- FEATURES -->
   
   <section class="wrapper style1 align-center">
     <div class="inner medium">
       <div class="row">
         <div class="col-12 col-12-small">
-          <hr class="block">
+          <hr class="block1">
         </div>
       </div>
       <div class="row">
@@ -197,26 +214,94 @@
             школе</h1>
           <hr class="mini">
           <h3 class="md_tx">Чтобы учёба увлекала, мы приготовили для ребят</h3>
-          <hr class="block">
-          <ul class="t_and_p">
-            <li><a href="https://webehoove.github.io/teenyweeny/visual-identity/logotype/"><img src="imgs/icons/icon_visual_identity_logotype.svg" onContextMenu="return false;" alt="Teeny Weeny English" />
-              <p class="xbd_tt">Логотип</p>
-              </a></li>
-            <li><a href="https://webehoove.github.io/teenyweeny/visual-identity/logotype/"><img src="imgs/icons/icon_visual_identity_typography.svg" onContextMenu="return false;" alt="Teeny Weeny English" />
-              <p class="xbd_tt">Шрифты</p>
-              </a></li>
-            <li><a href="https://webehoove.github.io/teenyweeny/visual-identity/logotype/"><img src="imgs/icons/icon_visual_identity_color.svg" onContextMenu="return false;" alt="Teeny Weeny English" />
-              <p class="xbd_tt">Цвета</p>
-              </a></li>
-            <li><a href="https://webehoove.github.io/teenyweeny/visual-identity/logotype/"><img src="imgs/icons/icon_visual_identity_tandp.svg" onContextMenu="return false;" alt="Teeny Weeny English" />
-              <p class="xbd_tt">Text&Play</p>
-              </a></li>
-          </ul>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <div class="inner">
+      <div class="row">
+        <div class="col-4 col-12-small">
+          <div class="box color_box_yellow" style="box-shadow: inset 0 0 0 0px var(--primary-green);">
+            <h2 class="special blk_tx nols_s">Уютная, теплая атмосфера</h2>
+            <hr class="block1">
+            <span class="image fit"><img src="imgs/tw_features_wa.svg" onContextMenu="return false;" alt="Тини Вини | Теплая атмосфера" /></span>
+            <hr class="block1">
+            <p class="bd_tx">Чтобы учёба увлекала, мы приготовили для ребят</p>
+          </div>
+        </div>
+        <div class="col-4 col-12-small">
+          <div class="box color_box_nblue" style="box-shadow: inset 0 0 0 0px var(--primary-lgreen);">
+            <h2 class="special blk_tx nols_s">Разговорная практика</h2>
+            <hr class="block1">
+            <span class="image fit"><img src="imgs/tw_features_tp.svg" onContextMenu="return false;" alt="Тини Вини | Разговорная практика" /></span>
+            <hr class="block1">
+            <p class="bd_tx">Учимся разговаривать уверенно и расширяем словарный запас</p>
+          </div>
+        </div>
+        <div class="col-4 col-12-small">
+          <div class="box color_box_pink" style="box-shadow: inset 0 0 0 0px var(--primary-red);">
+            <h2 class="special blk_tx nols_s">Быстрые результаты</h2>
+            <hr class="block1">
+            <span class="image fit"><img src="imgs/tw_features_fr.svg" onContextMenu="return false;" alt="Тини Вини | Быстрые результаты" /></span>
+            <hr class="block1">
+            <p class="bd_tx">Чтобы учёба увлекала, мы приготовили для ребят</p>
+          </div>
+        </div>
+        <div class="col-4 col-12-small">
+          <div class="box color_box_blue" style="box-shadow: inset 0 0 0 0px var(--primary-mblue);">
+            <h2 class="special blk_tx nols_s">Творческие мастер-классы</h2>
+            <hr class="block1">
+            <span class="image fit"><img src="imgs/tw_features_mc.svg" onContextMenu="return false;" alt="Тини Вини | Творческие мастер-классы" /></span>
+            <hr class="block1">
+            <p class="bd_tx">Знакомимся с английским языком через игры и творчество</p>
+          </div>
+        </div>
+        <div class="col-4 col-12-small">
+          <div class="box color_box_lgreen" style="box-shadow: inset 0 0 0 0px var(--primary-green);">
+            <h2 class="special blk_tx nols_s">Летний языковой лагерь</h2>
+            <hr class="block1">
+            <span class="image fit"><img src="imgs/tw_features_sc.svg" onContextMenu="return false;" alt="Тини Вини | Летний языковой лагерь" /></span>
+            <hr class="block1">
+            <p class="bd_tx">Чтобы учёба увлекала, мы приготовили для ребят</p>
+          </div>
+        </div>
+        <div class="col-4 col-12-small">
+          <div class="box color_box_white" style="box-shadow: inset 0 0 0 5px var(--primary-dblue);">
+            <h2 class="special blk_tx nols_s">Пробное занятие бесплатно</h2>
+            <hr class="block1">
+            <span class="image fit"><img src="imgs/tw_features_tfree.svg" onContextMenu="return false;" alt="Тини Вини | Пробное занятие бесплатно" /></span>
+            <hr class="block1">
+            <p class="bd_tx">Разовое групповое занятие для знакомства с форматом студии</p>
+          </div>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-12-small">
-          <hr class="block2">
+          <hr class="block">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- READY FOR SCHOOL -->
+  
+  <section class="wrapper style1 color_agreen align-center">
+    <div class="inner medium">
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <h3 class="blk_tx nols_s">Наши курсы</h3>
+          <hr class="mini">
+          <span class="image fit"><img src="imgs/tw_run_cat.svg" onContextMenu="return false;" alt="Тини Вини | Интенсив по чтению" /></span>
+          <hr class="block1">
+          <h1 class="special blk_tx" style="line-height:.9;">Для детей<br>
+            1-2 класса</h1>
+          <hr class="mini">
+          <h3 class="md_tx">Знакомимся с английским языком через игры, учимся понимать простые слова и фразы, развиваем внимание, память и интерес к занятиям.</h3>
+          <hr class="block1">
+          <ul>
+            <li><a href="https://webehoove.github.io/teenyweeny/downloads/" class="button large dblue xbd_tx">Подробнее</a></li>
+          </ul>
+          <hr class="block">
         </div>
       </div>
     </div>
@@ -224,26 +309,33 @@
   
   <!-- READING MOB -->
   
-  <section class="wrapper style1 invert align-center">
+  <section class="wrapper style1 invert align-center offdesk">
     <div class="inner">
       <div class="row">
         <div class="col-12 col-12-small">
-          <hr class="block">
+          <div class="box_banner color_box_dpink">
+            <h1 class="special blk_tx t_color_w" style="line-height:.85;">Идёте<br>
+              во 2 класс?<br>
+              <span class="t_color_y">Интенсив<br>
+              по чтению<br>
+              для вас!</span></h1>
+            <hr class="block1">
+            <p class="sbd_tx" style="margin:0 1rem 1.5rem 1rem;">Интенсив по обучению<br>
+              чтению для первоклассников<br>
+              и детей, которым нужна<br>
+              дополнительная практика.</p>
+            <ul>
+              <li>
+                <h3 class="blk_tx nols"><a href="https://webehoove.github.io/teenyweeny/downloads/" class="hover_underline_off">О программе</a></h3>
+              </li>
+            </ul>
+            <hr class="block1">
+            <span><img src="imgs/tw_reading_cat_books.svg" onContextMenu="return false;" alt="Тини Вини | К школе готов" /></span> </div>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-12-small">
-          <div class="box_banner color_box_dpink">
-            <h1 class="special blk_tx t_color_y">Интенсив<br>
-              по чтению</h1>
-            <hr class="mini">
-            <h3 class="sbd_tx t_color_w" style="margin:0 1rem 1.5rem 1rem;">Интенсив по обучению<br>чтению для первоклассников<br>и детей, которым нужна<br>дополнительная практика.</h3>
-            <ul>
-              <li><a href="https://webehoove.github.io/teenyweeny/downloads/" class="button medium dblue_shadow xbd_tx nols">Подробнее о курсе</a></li>
-            </ul>
-          <hr class="block1">
-            <span><img src="imgs/tw_reading_cat_books.svg" onContextMenu="return false;" alt="Тини Вини | Английский для детей" /></span>
-          </div>
+          <hr class="block">
         </div>
       </div>
     </div>
@@ -251,7 +343,7 @@
   
   <!-- READING -->
   
-  <section class="wrapper style1 align-left">
+  <section class="wrapper style1 invert align-left offmob">
     <div class="inner">
       <div class="row">
         <div class="col-12 col-12-small">
@@ -259,18 +351,53 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-7 col-12-small">
-          <h1 class="special blk_tx">Интенсив<br>
-            по чтению</h1>
+        <div class="col-12 col-12-small">
+          <div class="box_banner noborderradus" style="background-image:url(imgs/tw_reading_cat_books_bg.svg); background-size: 100%;">
+            <h1 class="blk_tx t_color_y" style="line-height:.8;"><span class="t_color_w">Идете<br>
+              во 2 класс?</span><br>
+              Интенсив<br>
+              по чтению<br>
+              для вас!</h1>
+            <hr class="mini">
+            <p class="md_tx">Интенсив по обучению чтению для<br>
+              первоклассников и детей, которым<br>
+              нужна дополнительная практика.</p>
+            <hr class="mini">
+            <ul>
+              <li><a href="https://webehoove.github.io/teenyweeny/downloads/" class="button large dblue xbd_tx">Подробнее</a></li>
+            </ul>
+            <hr class="block3">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <hr class="block">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- READY FOR SCHOOL -->
+  
+  <section class="wrapper style1 color_agreen align-center">
+    <div class="inner medium">
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <h3 class="blk_tx nols_s">Наши курсы</h3>
+          <hr class="block1">
+          <span class="image fit"><img src="imgs/tw_run_cat_blue.svg" onContextMenu="return false;" alt="Тини Вини | К школе готов" /></span>
+          <hr class="block1">
+          <h1 class="special blk_tx" style="line-height:.9;">Для детей<br>
+            1-2 класса</h1>
           <hr class="mini">
-          <h3 class="md_tx">Интенсив по обучению чтению для первоклассников и детей, которым нужна дополнительная практика.</h3>
+          <h3 class="md_tx">Знакомимся с английским языком через игры, учимся понимать простые слова и фразы, развиваем внимание, память и интерес к занятиям.</h3>
           <hr class="block1">
           <ul>
             <li><a href="https://webehoove.github.io/teenyweeny/downloads/" class="button large dblue xbd_tx">Подробнее</a></li>
           </ul>
           <hr class="block">
         </div>
-        <div class="col-5 col-12-small"><span class="image fit"><img src="imgs/tw_reading_cat_books.svg" onContextMenu="return false;" alt="Тини Вини | Интенсив по чтению" /></span></div>
       </div>
     </div>
   </section>
@@ -367,48 +494,59 @@
     </div>
   </section>
   
-  <!-- BRAND EXPERIANCE -->
+  <!-- SOCIAL MEDIA -->
   
-  <section class="wrapper style1 invert color_mp align-left">
-    <div class="inner">
+  <section class="wrapper style1 color_pink align-center">
+    <div class="inner medium">
       <div class="row">
         <div class="col-12 col-12-small">
           <hr class="block1">
         </div>
       </div>
       <div class="row">
-        <div class="col-5 col-12-small">
-          <h1 class="special xbd_tt" style="line-height:0.9">Основы оформления</h1>
-          <hr class="block2">
-          <ul class="xbd_tx upup">
-            <li>
-              <h5><a href="https://webehoove.github.io/teenyweeny/brand-experience/social-media/" class="button npurple small">Социальные сети</a></h5>
-            </li>
-            <li>
-              <h5><a href="https://webehoove.github.io/teenyweeny/brand-experience/banners/" class="button npurple small">Банеры</a></h5>
-            </li>
-            <li>
-              <h5><a href="https://webehoove.github.io/teenyweeny/brand-experience/layout-design/" class="button npurple small">Компоновка</a></h5>
-            </li>
+        <div class="col-12 col-12-small">
+          <h1 class="special_one blk_tx nols_s" style="line-height:0.9">Мы в соцсетях</h1>
+          <hr class="mini">
+          <h3 class="md_tx">Узнавайте больше о нашей школе и особенностях методов обучения, вдохновляйтесь яркими идеями вместе с нами</h3>
+          <hr class="mini">
+          <ul class="sm">
+            <li><a href="https://vk.ru/english4younglearners" target="new" name="VK"><img src="imgs/icons/vk_icon_b.svg" onContextMenu="return false;" alt="Тини Вини | VK" /></a></li>
+            <li><a href="https://t.me/teenyweenyenglish" target="new" name="Telegram"><img src="imgs/icons/teleg_icon_b.svg" onContextMenu="return false;" alt="Тини Вини | Telegram" /></a></li>
           </ul>
-          <hr class="block1">
-          <h3>Принципы дизайна являются краеугольными камнями нашей визуальной идентичности. Они представляют собой визуальное воплощение этики и ценностей нашей компании.</h3>
-          <hr class="block1">
-          <p>Обеспечивая соответствие всего дизайна нашим стандартам оформления, можно гарантировать, что бренд передает желаемое сообщение.</p>
-          <hr class="block1">
+          <hr class="mini">
         </div>
-        <div class="col-7 col-12-small"> <span class="image fit rounded"><img src="brand-experience/social-media/imgs/twe_sm_backing_text3.jpg" onContextMenu="return false;" alt="Teeny Weeny English" /></span> 
-          <!-- <span class="image fit"><video autoplay loop muted playsinline style="filter: brightness(100%) contrast(108%);">
-            <source id="videoSource" src="brand-experience/social-media/videos/twe_text_backing_spin.mp4" type="video/mp4">
-          </video></span> -->
-          <hr class="block1">
-          <a href="https://webehoove.github.io/teenyweeny/brand-experience/" class="button npurple large_a_npurple xbd_tt">Основы оформления</a>
+      </div>
+    </div>
+    <div class="inner gallery_full">
+      <div class="row">
+        <div class="gallery-container">
+          <div class="gallery-viewport" id="galleryViewport">
+            <div class="gallery-track" id="galleryTrack">
+              <div class="gallery-item ratio-1-1"><img src="imgs/sm/tw_vk_img_01.jpg" alt="1" draggable="false"></div>
+              <div class="gallery-item ratio-4-3"><img src="imgs/sm/tw_vk_img_02.jpg" alt="2" draggable="false"></div>
+              <div class="gallery-item ratio-3-4"><img src="imgs/sm/tw_vk_img_02.jpg" alt="3" draggable="false"></div>
+              <div class="gallery-item ratio-1-1"><img src="imgs/sm/tw_vk_img_02.jpg" alt="4" draggable="false"></div>
+              <div class="gallery-item ratio-4-3"><img src="imgs/sm/tw_vk_img_02.jpg" alt="5" draggable="false"></div>
+              <div class="gallery-item ratio-3-4"><img src="imgs/sm/tw_vk_img_02.jpg" alt="6" draggable="false"></div>
+              <div class="gallery-item ratio-1-1"><img src="imgs/sm/tw_vk_img_02.jpg" alt="7" draggable="false"></div>
+              <div class="gallery-item ratio-4-3"><img src="imgs/sm/tw_vk_img_02.jpg" alt="8" draggable="false"></div>
+              <div class="gallery-item ratio-3-4"><img src="imgs/sm/tw_vk_img_02.jpg" alt="9" draggable="false"></div>
+              <div class="gallery-item ratio-1-1"><img src="imgs/sm/tw_vk_img_02.jpg" alt="10" draggable="false"></div>
+            </div>
+          </div>
+          <ul class="gallery-btn-c">
+            <li>
+              <button class="gallery-btn prev" id="prevBtn" aria-label="Назад"><img src="imgs/icons/icon_arrow_left_but_db.svg" onContextMenu="return false;" alt="Назад" /></button>
+            </li>
+            <li>
+              <button class="gallery-btn next" id="nextBtn" aria-label="Вперед"><img src="imgs/icons/icon_arrow_right_but_db.svg" onContextMenu="return false;" alt="Вперед" /></button>
+            </li>
           </ul>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-12-small">
-          <hr class="block2">
+          <hr class="block1">
         </div>
       </div>
     </div>
@@ -419,49 +557,48 @@
   <section class="wrapper style1 invert color_dblue align-left">
     <div class="inner">
       <div class="row">
-        <div class="col-12 col-12-small">
-          <hr class="mini">
+        <div class="col-12 off-12-small">
+          <hr class="block_end">
         </div>
-      </div>
-      <div class="row">
-        <div class="col-3 col-6-small">
-          <div class="logotype_lockup_b"> <a href="https://webehoove.github.io/teenyweeny/"><img src="imgs/brand/tw_logotype_w_w_w_border.svg" onContextMenu="return false;" alt="Тини Вини | Английский для детей" /></a> </div>
+        <div class="col-4 col-12-small">
+          <div class="logotype_lockup_b logo-container"><img src="imgs/brand/levant_symbol_gr_c.svg" onContextMenu="return false;" alt="Левант | Брендинг" /></div>
           <hr class="block2">
         </div>
-        <div class="col-3 col-12-small">
-          <ul class="bottommenu rg_tx">
+        <div class="col-2 col-12-small">
+          <ul class="bottommenu md_tx">
             <li class="blk_tx nols" style="margin-bottom:2rem;">
-              <h2 class="special"><a href="https://webehoove.github.io/teenyweeny/brand-experience/">Школа</a></h2>
+              <h2 class="special_one"><a href="https://webehoove.github.io/teenyweeny/brand-experience/" class="hover_underline">Школа</a></h2>
             </li>
             <li><a href="https://webehoove.github.io/teenyweeny/visual-identity/logotype/" class="hover_underline">О нас</a></li>
-            <li><a href="https://webehoove.github.io/teenyweeny/visual-identity/typography/" class="hover_underline">Новости школы</a></li>
-            <li><a href="https://webehoove.github.io/teenyweeny/visual-identity/color/" class="hover_underline">Цвета</a></li>
+            <li><a href="https://webehoove.github.io/teenyweeny/visual-identity/typography/" class="hover_underline">Новости</a></li>
+            <li><a href="https://webehoove.github.io/teenyweeny/visual-identity/color/" class="hover_underline">Пробное занятие</a></li>
           </ul>
           <hr class="block">
         </div>
         <div class="col-3 col-12-small">
-          <ul class="bottommenu rg_tx">
+          <ul class="bottommenu md_tx">
             <li class="blk_tx nols" style="margin-bottom:2rem;">
-              <h2 class="special">Соцсети</h2>
+              <h2 class="special_one"><a href="https://webehoove.github.io/teenyweeny/brand-experience/" class="hover_underline">Программы</a></h2>
             </li>
-            <li>ВКонтакте</li>
-            <li>Телеграм</li>
+            <li><a href="https://webehoove.github.io/teenyweeny/brand-experience/" class="hover_underline">К школе готов!</a></li>
+            <li><a href="https://webehoove.github.io/teenyweeny/brand-experience/" class="hover_underline">Интенсив по чтению</a></li>
+            <li><a href="https://webehoove.github.io/teenyweeny/brand-experience/" class="hover_underline">Интенсив по чтению</a></li>
           </ul>
           <hr class="block">
         </div>
         <div class="col-3 col-12-small">
-          <ul class="bottommenu rg_tx">
-            <li class="blk_tx nols" style="margin-bottom:2rem;">
-              <h2 class="special"><a href="https://webehoove.github.io/teenyweeny/brand-experience/">Контакты</a></h2>
+          <ul class="bottommenu md_tx">
+            <li class="blk_tx nols" style="margin-bottom:3rem;">
+              <h2 class="special_one"><a href="https://webehoove.github.io/teenyweeny/brand-experience/" class="hover_underline">Контакты</a></h2>
             </li>
-            <li class="blk_tx nols">Наш адрес</li>
-            <li style="margin-bottom:2rem;">Санкт–Петербург<br>
-              Васильевский Остров<br>
+            <li class="title xbd_tx nols">Наш адрес</li>
+            <li style="margin-bottom:3rem;">Санкт–Петербург,<br>
+              Васильевский Остров,<br>
               Эко–Лофт, пр. Кима 6,<br>
-              каб. 351</li>
-            <li class="blk_tx nols">Звоните</li>
+              кабинет 351</li>
+            <li class="title xbd_tx nols">Звоните</li>
             <li style="margin-bottom:2rem;"><a href="tel:+79213305710" class="hover_underline">+7 (921) 330 57 10</a></li>
-            <li class="blk_tx nols">Мы работаем</li>
+            <li class="title xbd_tx nols">Мы работаем</li>
             <li>Понедельник&#8212;Пятница<br>
               с 9:00 до 17:00</li>
           </ul>
@@ -509,28 +646,6 @@
 <script src="assets/js/main.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script> 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  
-  if ('fonts' in document) {
-    
-    document.fonts.ready.then(function() {
-      console.log('Все шрифты загружены!');
-      
-      const textElements = document.querySelectorAll('.animate-text-on-load');
-      
-      textElements.forEach(element => {
-        element.classList.add('font-is-ready');
-      });
-      
-    });
-  } else {
-    document.querySelectorAll('.animate-text-on-load').forEach(element => {
-        element.classList.remove('animate-text-on-load');
-    });
-  }
-});
-</script> 
-<script>
 SmoothScroll({
     animationTime    : 1000,
     stepSize         : 75,
@@ -566,7 +681,7 @@ $(function() {
   
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
-        if (scroll >= 100) {
+        if (scroll >= 120) {
             header.addClass("scrolled");
         } else {
             header.removeClass("scrolled");
@@ -595,6 +710,191 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 	}
+</script> 
+<script>
+    let lastScrollTop = 0;
+    const logo = document.getElementById('animated-logo');
+
+    window.addEventListener('scroll', function() {
+      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (currentScroll > lastScrollTop) {
+        logo.classList.add('scroll-down');
+      } else {
+        logo.classList.remove('scroll-down');
+      }
+
+      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; 
+    }, false);
+  </script> 
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const track = document.getElementById('galleryTrack');
+  const viewport = document.getElementById('galleryViewport');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const items = document.querySelectorAll('.gallery-item');
+
+  let currentIndex = 0;
+  const totalItems = items.length;
+
+  let isDragging = false;
+  let startX = 0;
+  let currentTranslate = 0;
+  let prevTranslate = 0;
+
+  items.forEach(item => {
+    item.ondragstart = () => false;
+  });
+
+  function getTrackGap() {
+    const trackStyle = window.getComputedStyle(track);
+    return parseFloat(trackStyle.gap) || 0;
+  }
+
+  function getMaxScroll() {
+    const gap = getTrackGap();
+    const totalTrackWidth = Array.from(items).reduce((sum, item) => sum + item.getBoundingClientRect().width, 0) + (gap * (totalItems - 1));
+    const viewportWidth = viewport.clientWidth;
+    return Math.max(0, totalTrackWidth - viewportWidth);
+  }
+
+  function getOffsetForIndex(index) {
+    const gap = getTrackGap();
+    let offset = 0;
+    for (let i = 0; i < index; i++) {
+      offset += items[i].getBoundingClientRect().width + gap;
+    }
+    return Math.min(offset, getMaxScroll());
+  }
+
+  function updateSlider() {
+    const isMobile = window.innerWidth < 768;
+
+    if (isMobile) {
+      const targetItem = items[currentIndex];
+      if (targetItem) {
+        viewport.scrollTo({
+          left: targetItem.offsetLeft,
+          behavior: 'smooth'
+        });
+      }
+    } else {
+      const targetOffset = getOffsetForIndex(currentIndex);
+      currentTranslate = -targetOffset;
+      prevTranslate = currentTranslate;
+      track.style.transform = `translateX(${currentTranslate}px)`;
+    }
+
+    updateButtons();
+  }
+
+  function updateButtons() {
+    prevBtn.disabled = currentIndex === 0;
+
+    const isMobile = window.innerWidth < 768;
+    if (isMobile) {
+      nextBtn.disabled = viewport.scrollLeft + viewport.clientWidth >= viewport.scrollWidth - 10;
+    } else {
+      const maxScroll = getMaxScroll();
+      const currentOffset = Math.abs(currentTranslate);
+      nextBtn.disabled = currentOffset >= maxScroll - 5;
+    }
+  }
+
+  viewport.addEventListener('mousedown', (e) => {
+    if (window.innerWidth < 768) return; 
+    if (e.button !== 0) return;
+
+    isDragging = true;
+    startX = e.clientX;
+    prevTranslate = currentTranslate;
+
+    viewport.classList.add('is-dragging');
+    track.classList.add('is-dragging');
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if (!isDragging || window.innerWidth < 768) return;
+
+    if (e.buttons !== 1) {
+      stopDragging();
+      return;
+    }
+
+    const currentX = e.clientX;
+    const diffX = currentX - startX;
+
+    let targetTranslate = prevTranslate + diffX;
+    const maxScroll = getMaxScroll();
+
+    if (targetTranslate > 0) {
+      targetTranslate = targetTranslate * 0.2;
+    } else if (targetTranslate < -maxScroll) {
+      targetTranslate = -maxScroll + (targetTranslate + maxScroll) * 0.2;
+    }
+
+    currentTranslate = targetTranslate;
+    track.style.transform = `translateX(${currentTranslate}px)`;
+  });
+
+  function stopDragging() {
+    if (!isDragging) return;
+
+    isDragging = false;
+    viewport.classList.remove('is-dragging');
+    track.classList.remove('is-dragging');
+
+    const movedBy = currentTranslate - prevTranslate;
+
+    if (movedBy < -40 && currentIndex < totalItems - 1) {
+      currentIndex++;
+    } else if (movedBy > 40 && currentIndex > 0) {
+      currentIndex--;
+    }
+
+    updateSlider();
+  }
+
+  window.addEventListener('mouseup', stopDragging);
+
+  nextBtn.addEventListener('click', () => {
+    if (currentIndex < totalItems - 1) {
+      currentIndex++;
+      updateSlider();
+    }
+  });
+
+  prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateSlider();
+    }
+  });
+
+  viewport.addEventListener('scroll', () => {
+    if (window.innerWidth >= 768) return;
+
+    const scrollLeft = viewport.scrollLeft;
+    let closestIndex = 0;
+    let minDiff = Infinity;
+
+    items.forEach((item, index) => {
+      const diff = Math.abs(item.offsetLeft - scrollLeft);
+      if (diff < minDiff) {
+        minDiff = diff;
+        closestIndex = index;
+      }
+    });
+
+    currentIndex = closestIndex;
+    updateButtons();
+  }, { passive: true });
+
+  window.addEventListener('resize', updateSlider);
+
+  updateSlider();
+});
 </script>
 </body>
 </html>

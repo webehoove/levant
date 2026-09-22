@@ -1,0 +1,67 @@
+:root {
+ --primary-bblue: rgba(30, 10, 90, 1);
+}
+:root {
+ --primary-dblue: rgba(30, 39, 108, 1);
+}
+:root {
+ --primary-mblue: rgba(80, 135, 230, 1);
+}
+:root {
+ --primary-nblue: rgba(100, 180, 255, 1);
+}
+:root {
+ --primary-blue: rgba(135, 225, 255, 1);
+}
+:root {
+ --primary-dred: rgba(215, 20, 0, 1);
+}
+:root {
+ --primary-red: rgba(255, 60, 0, 1);
+}
+:root {
+ --primary-lred: rgba(255, 200, 215, 1);
+}
+:root {
+ --primary-dorange: rgba(255, 205, 50, 1);
+}
+:root {
+ --primary-orange: rgba(255, 225, 165, 1);
+}
+:root {
+ --primary-yellow: rgba(255, 255, 95, 1);
+}
+:root {
+ --primary-green: rgba(0, 200, 90, 1);
+}
+:root {
+ --primary-lgreen: rgba(190, 250, 135, 1);
+}
+:root {
+ --primary-dpink: rgba(250, 20, 255, 1);
+}
+:root {
+ --primary-pink: rgba(255, 135, 255, 1);
+}
+:root {
+ --primary-lpink: rgba(255, 190, 255, 1);
+}
+:root {
+ --primary-grey: rgba(246, 247, 247, 1);
+}
+:root {
+ --primary-grey-100: rgba(241, 243, 242, 1);
+}
+:root {
+ --primary-grey-150: rgba(232, 235, 234, 1);
+}
+
+
+
+
+:root {
+ --primary-black: rgba(5, 5, 15, 1);
+}
+:root {
+ --primary-white: rgba(255, 255, 255, 1);
+}

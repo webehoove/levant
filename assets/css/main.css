@@ -1,10 +1,15 @@
 /*___________Text______________*/
 @font-face {
+	font-family: 'L Rg';
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	src: url(../webfonts/Levant/Levant-Regular.woff2) format('woff2');
+}@font-face {
 	font-family: 'L Bd';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/Levant/Levant-Bold.woff) format('woff');
 	src: url(../webfonts/Levant/Levant-Bold.woff2) format('woff2');
 }
 @font-face {
@@ -203,7 +208,7 @@ body {
 	color: var(--primary-dblue);
 }
 body, input, select, textarea {
-	font-family: "TW Md", Helvetica, sans-serif;
+	font-family: "L Rg", serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -235,32 +240,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 /* Font */
 
-.rg_tx {
-	font-family: 'TW Rg', Helvetica, sans-serif;
-}
-.md_tx {
-	font-family: 'TW Md', Helvetica, sans-serif;
-}
-.sbd_tx {
-	font-family: 'TW Sbd', Helvetica, sans-serif;
-}
 .bd_tx {
 	font-family: 'L Bd', Helvetica, sans-serif;
-}
-.xbd_tx {
-	font-family: 'TW Xbd', Helvetica, sans-serif;
-	letter-spacing: -0.05rem;
-}
-.blk_tx {
-	font-family: 'TW Blk', Helvetica, sans-serif;
-	letter-spacing: -0.2rem;
-}
-.xblk_tx {
-	font-family: 'TW Xblk', Helvetica, sans-serif;
-	letter-spacing: -0.2rem;
-}
-.text_and_play {
-	font-family: 'TWE Text and Play', Helvetica, sans-serif;
 }
 /* Text Color */
 

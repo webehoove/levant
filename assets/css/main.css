@@ -4,20 +4,20 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/Levant/Levant-Regular.woff2) format('woff2');
+	src: url(../webfonts/levant/Levant-Regular.woff2) format('woff2');
 }@font-face {
 	font-family: 'L Bd';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/Levant/Levant-Bold.woff2) format('woff2');
+	src: url(../webfonts/levant/Levant-Bold.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'TW Md';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/Levant/TWSans-Medium.woff2) format('woff2');
+	src: url(../webfonts/levant/TWSans-Medium.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'TW Sbd';

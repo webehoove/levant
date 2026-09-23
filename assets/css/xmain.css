@@ -16,7 +16,7 @@
 }
 .logotype_lockup_t {
 	position: absolute;
-	width: 7rem;
+	width: 6rem;
 	transform: scale(1);
 	z-index: 3;
 }
@@ -24,15 +24,16 @@
 	width: 22rem;
 }
 ul.topmenu {
-	font-size: 1.35rem;
+	font-size: 1.5rem;
 	position: relative;
 	list-style: none;
 	padding: 0;
-	top: 0.75rem;
+	top: 0;
 	float: left;
 	z-index: 3;
 }
 ul.topmenu_right {
+	font-size: 1.5rem;
 	position: relative;
 	list-style: none;
 	padding: 0;
@@ -184,14 +185,13 @@ ul.goup li {
 }
 #logotype_sym {
 	position: relative;
-	width: 10rem;
+	width: 5rem;
 	top: 0;
 	left: 50%;
 	transform: translate(-50%, 0);
 	z-index: 6;
 }
 ul.topmenu_right {
-	top: 1.25rem;
 	right: 1rem;
 }
 .offdesk {
@@ -216,7 +216,7 @@ ul.topmenu_right {
 }
  @media screen and (max-width: 768px) {
 #logotype_sym {
-	width: 10rem;
+	width: 5rem;
 }
 .logotype_lockup_b {
 	width: 18rem;
@@ -246,10 +246,9 @@ ul.bottommenu_hor li {
 }
  @media screen and (max-width: 736px) {
 #logotype_sym {
-	width: 9rem;
+	width: 5rem;
 }
 ul.topmenu_right {
-	top: 1.25rem;
 	right: 0;
 }
 ul.topmenu_right img {
@@ -265,6 +264,4 @@ ul.topmenu_right img {
 .offmob_text {
 	display: none;
 }
-}
- @media screen and (max-width: 395px) {
 }

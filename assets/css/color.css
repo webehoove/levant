@@ -1,26 +1,26 @@
 :root {
- --primary-bblue: rgba(30, 10, 90, 1);
+ --primary-bblue: rgba(20, 28, 78, 1);
 }
 :root {
- --primary-dblue: rgba(30, 39, 108, 1);
+ --primary-dblue: rgba(22, 33, 88, 1);
 }
 :root {
- --primary-mblue: rgba(80, 135, 230, 1);
+ --primary-mblue: rgba(38, 47, 120, 1);
 }
 :root {
- --primary-nblue: rgba(100, 180, 255, 1);
+ --primary-nblue: rgba(52, 69, 140, 1);
 }
 :root {
- --primary-blue: rgba(135, 225, 255, 1);
+ --primary-blue: rgba(93, 144, 255, 1);
 }
 :root {
- --primary-dred: rgba(215, 20, 0, 1);
+ --primary-dred: rgba(91, 7, 14, 1);
 }
 :root {
- --primary-red: rgba(255, 60, 0, 1);
+ --primary-red: rgba(221, 25, 54, 1);
 }
 :root {
- --primary-lred: rgba(255, 200, 215, 1);
+ --primary-lred: rgba(252, 68, 112, 1);
 }
 :root {
  --primary-dorange: rgba(255, 205, 50, 1);

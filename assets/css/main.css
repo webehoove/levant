@@ -216,6 +216,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 .rg_tt {
 	font-family: 'LT Rg', sans;
+	font-feature-settings: "ss01";
 }
 /* Text Color */
 

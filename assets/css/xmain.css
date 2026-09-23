@@ -24,7 +24,7 @@
 	width: 16rem;
 }
 ul.topmenu {
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	position: relative;
 	list-style: none;
 	padding: 0;
@@ -33,7 +33,7 @@ ul.topmenu {
 	z-index: 3;
 }
 ul.topmenu_right {
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	position: relative;
 	list-style: none;
 	padding: 0;

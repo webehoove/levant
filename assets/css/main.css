@@ -1,4 +1,11 @@
 /*___________Text______________*/
+}@font-face {
+	font-family: 'L Lt';
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	src: url(../webfonts/levant/Levant-Light.woff2) format('woff2');
+}
 @font-face {
 	font-family: 'L Rg';
 	font-weight: normal;
@@ -6,53 +13,18 @@
 	font-display: swap;
 	src: url(../webfonts/levant/Levant-Regular.woff2) format('woff2');
 }@font-face {
+	font-family: 'L Md';
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	src: url(../webfonts/levant/Levant-Medium.woff2) format('woff2');
+}
+@font-face {
 	font-family: 'L Bd';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 	src: url(../webfonts/levant/Levant-Bold.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'TW Md';
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/levant/TWSans-Medium.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'TW Sbd';
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/twsans/TWSans-SemiBold.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'TW Bd';
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/twsans/TWSans-Bold.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'TW Xbd';
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/twsans/TWSans-ExtraBold.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'TW Blk';
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/twsans/TWSans-Black.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'TW Xblk';
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/twsans/TWSans_ExtraBlack.woff2) format('woff2');
 }
 /*___________Text&Play______________*/
 @font-face {
@@ -61,19 +33,6 @@
 	font-style: normal;
 	font-display: block;
 	src: url(../webfonts/twe_text_and_play/TW-TandP-Bold.woff2) format('woff2');
-}
-/*___________Script______________*/
-@font-face {
-	font-family: 'TWE Script Rg';
-	font-weight: normal;
-	font-style: normal;
-	src: url(../webfonts/twe_script_text/TWE-Script-Regular.woff2) format('woff2'), url(../webfonts/twe_script_text/TWE-Script-Regular.woff) format('woff');
-}
-@font-face {
-	font-family: 'TWE Script SBd';
-	font-weight: normal;
-	font-style: normal;
-	src: url(../webfonts/twe_script_text/TWE-Script-SemiBold.woff2) format('woff2'), url(../webfonts/twe_script_text/TWE-Script-SemiBold.woff) format('woff');
 }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -214,6 +173,7 @@ body, input, select, textarea {
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
 	font-weight: normal;
+	letter-spacing: 0;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -240,8 +200,17 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 /* Font */
 
+.lt_tx {
+	font-family: 'L Lt', sans;
+}
+.rg_tx {
+	font-family: 'L Rg', sans;
+}
+.md_tx {
+	font-family: 'L Md', sans;
+}
 .bd_tx {
-	font-family: 'L Bd', Helvetica, sans-serif;
+	font-family: 'L Bd', sans;
 }
 /* Text Color */
 
@@ -275,27 +244,27 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .t_color_w {
 	color: var(--primary-white);
 }
-.nols_s {
-	letter-spacing: -0.1rem;
-}
 .nols {
 	letter-spacing: 0;
 }
+.nols_s {
+	letter-spacing: -0.02em;
+}
 p {
 	font-size: 1.5rem;
-	line-height: 1.1;
+	line-height: 1.3;
 }
 h1 {
 	font-size: 6.5rem;
-	line-height: .8;
+	line-height: 1;
 }
 h1.special {
 	font-size: 7.25rem;
-	line-height: .8;
+	line-height: 1;
 }
 h1.special_one {
 	font-size: 6rem;
-	line-height: .9;
+	line-height: 1;
 }
 h1.tap {
 	font-size: 9rem;
@@ -303,31 +272,31 @@ h1.tap {
 }
 h2 {
 	font-size: 3rem;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 h2.special {
 	font-size: 2.5rem;
-	line-height: .9;
+	line-height: 1;
 }
 h2.special_one {
 	font-size: 2.35rem;
-	line-height: .9;
+	line-height: 1.2;
 }
 h3 {
 	font-size: 2.25rem;
-	line-height: 1.1
+	line-height: 1.2
 }
 h4 {
 	font-size: 1.5rem;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 h5 {
 	font-size: 1.35rem;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 h6 {
 	font-size: 1rem;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 sub {
 	font-size: 0.8rem;
@@ -441,14 +410,11 @@ h2.special_one {
 hr.block_end {
 	margin: 0;
 }
-.nols_s {
-	letter-spacing: -0.1rem;
-}
 }
  @media screen and (max-width: 736px) {
 p {
 	font-size: 1.5rem;
-	line-height: 1.1;
+	line-height: 1.5;
 }
 h1 {
 	font-size: 3.25rem;
@@ -464,11 +430,9 @@ h1.tap {
 }
 h2 {
 	font-size: 1.8rem;
-	line-height: 1.2;
 }
 h2.special {
 	font-size: 2.7rem;
-	line-height: .8;
 }
 h2.special_one {
 	font-size: 2.5rem;
@@ -478,15 +442,12 @@ h3 {
 }
 h4 {
 	font-size: 1.35rem;
-	line-height: 1.1;
 }
 h5 {
 	font-size: 1.35rem;
-	line-height: 1;
 }
 h6 {
 	font-size: 1.15rem;
-	line-height: 1;
 }
 hr {
 	margin: 0.75rem 0;

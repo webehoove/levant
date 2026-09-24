@@ -169,7 +169,7 @@ body {
 	color: var(--primary-dblue);
 }
 body, input, select, textarea {
-	font-family: "LT Rg", serif;
+	font-family: "LT Rg", Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -215,7 +215,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-family: 'L Bd', sans;
 }
 .rg_tt {
-	font-family: 'LT Rg', sans;
+	font-family: 'LT Rg', Helvetica, sans-serif;
 	font-feature-settings: "ss01";
 }
 /* Text Color */

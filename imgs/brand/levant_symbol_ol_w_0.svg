@@ -7,6 +7,7 @@
 	.st1{fill:#FFFFFF;}
 	.st2{fill:none;stroke:#FFFFFF;stroke-width:3.7392;stroke-miterlimit:10;}
 	.st3{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:3.7392;stroke-miterlimit:10;}
+	.st4{opacity:0;fill:none;stroke:#FFFFFF;stroke-width:3.7392;stroke-miterlimit:10;}
 </style>
 <g>
 	<polygon class="st0" points="152.054,134.293 165.611,175.156 208.298,175.156 173.989,200.558 186.815,241.275 152.054,216.495 
@@ -194,6 +195,6 @@
 			c0.617,9.768,2.623,18.904,5.96,27.155c1.564,3.866,3.43,7.55,5.581,11.039h43.098c0.358-8.343,2.2-16.43,5.499-24.08
 			C90.566,101.954,92.3,98.682,94.263,95.606z"/>
 	</g>
-	<polygon class="st2" points="138.498,175.156 165.611,175.156 173.989,200.558 152.054,216.495 130.119,200.558 	"/>
+	<polygon class="st4" points="138.498,175.156 165.611,175.156 173.989,200.558 152.054,216.495 130.119,200.558 	"/>
 </g>
 </svg>

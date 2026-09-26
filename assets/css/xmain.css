@@ -72,7 +72,7 @@ ul.bottommenu {
 	margin: 0;
 }
 ul.bottommenu li {
-	font-size: 1.35rem;
+	font-size: 1.25rem;
 	display: block;
 	padding-bottom: 1rem;
 }
@@ -86,9 +86,6 @@ ul.bottommenu_hor {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-}
-ul li.bottommenu_big {
-	font-size: 1.5rem;
 }
 ul.bottommenu_hor li {
 	display: inline-block;
@@ -257,11 +254,11 @@ ul.bottommenu {
 	padding-bottom: 2rem;
 }
 ul.bottommenu li {
-	font-size: 1.5rem;
+	font-size: 1.35rem;
 	margin-bottom: 0;
 }
 ul.bottommenu li.title {
-	font-size: 1.8rem;
+	font-size: 1.65rem;
 	display: block;
 }
 ul.bottommenu_hor li {

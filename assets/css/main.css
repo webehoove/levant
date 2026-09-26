@@ -404,6 +404,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .t_color_db180 {
 	color: var(--primary-dblue-180);
 }
+.t_color_db200 {
+	color: var(--primary-dblue-200);
+}
 .t_color_b {
 	color: var(--primary-blue);
 }
@@ -594,7 +597,7 @@ h1.special {
 	font-size: 3rem;
 }
 h2 {
-	font-size: 1.8rem;
+	font-size: 2rem;
 }
 h2.special {
 	font-size: 3.5rem;
@@ -768,7 +771,7 @@ ul.side_menu li {
 	margin: 0.25rem 0 1.25rem 0;
 }
 ul.side_menu li a {
-	color: var(--primary-dblue-200);
+	color: var(--primary-dblue-180);
 }
 ul.side_menu li a:hover {
 	color: var(--primary-dblue-10);

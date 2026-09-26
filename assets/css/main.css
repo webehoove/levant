@@ -5,63 +5,63 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-Light.woff2) format('woff2');
+	src: url(../webfonts/levant/Levant-Light.woff2) format('woff2'), url(../webfonts/levant/Levant-Light.woff) format('woff');
 }
 @font-face {
 	font-family: 'L LtIt';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-LightIt.woff2) format('woff2');
+	src: url(../webfonts/levant/Levant-LightIt.woff2) format('woff2'), url(../webfonts/levant/Levant-LightIt.woff) format('woff');
 }
 @font-face {
 	font-family: 'L Rg';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-Regular.woff2) format('woff2');
+	src: url(../webfonts/levant/Levant-Regular.woff2) format('woff2'), url(../webfonts/levant/Levant-Regular.woff) format('woff');
 }
 @font-face {
 	font-family: 'L RgIt';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-It.woff2) format('woff2');
+	src: url(../webfonts/levant/Levant-It.woff2) format('woff2'), url(../webfonts/levant/Levant-It.woff) format('woff');
 }
 @font-face {
 	font-family: 'L Md';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-Medium.woff2) format('woff2');
+	src: url(../webfonts/levant/Levant-Medium.woff2) format('woff2'), url(../webfonts/levant/Levant-Medium.woff) format('woff');
 }
 @font-face {
 	font-family: 'L MdIt';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-MediumIt.woff2) format('woff2');
+	src: url(../webfonts/levant/Levant-MediumIt.woff2) format('woff2'), url(../webfonts/levant/Levant-MediumIt.woff) format('woff');
 }
 @font-face {
 	font-family: 'L Bd';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-Bold.woff2) format('woff2');
+	src: url(../webfonts/levant/Levant-Bold.woff2) format('woff2'), url(../webfonts/levant/Levant-Bold.woff) format('woff');
 }
 @font-face {
 	font-family: 'L BdIt';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-BoldIt.woff2) format('woff2');
+	src: url(../webfonts/levant/Levant-BoldIt.woff2) format('woff2'), url(../webfonts/levant/Levant-BoldIt.woff) format('woff');
 }
 @font-face {
 	font-family: 'L XbdIt';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-ExtraBoldIt.woff2) format('woff2');
+	src: url(../webfonts/levant/Levant-ExtraBoldIt.woff2) format('woff2'), url(../webfonts/levant/Levant-ExtraBoldIt.woff) format('woff');
 }
 /*___________Text______________*/
 
@@ -107,7 +107,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_serif/LevantSerif-Rg.woff2) format('woff2');
+	src: url(../webfonts/levant_serif/LevantSerif-Rg.woff2) format('woff2'), url(../webfonts/levant_serif/LevantSerif-Rg.woff) format('woff');
 }
 /*___________Sans______________*/
 
@@ -116,42 +116,42 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-Light.woff2) format('woff2');
+	src: url(../webfonts/levant_sans/LevantSans-Light.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-Light.woff) format('woff');
 }
 @font-face {
 	font-family: 'LS Rg';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-Regular.woff2) format('woff2');
+	src: url(../webfonts/levant_sans/LevantSans-Regular.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-Regular.woff) format('woff');
 }
 @font-face {
 	font-family: 'LS Nm';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-Normal.woff2) format('woff2');
+	src: url(../webfonts/levant_sans/LevantSans-Normal.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-Normal.woff) format('woff');
 }
 @font-face {
 	font-family: 'LS Md';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-Medium.woff2) format('woff2');
+	src: url(../webfonts/levant_sans/LevantSans-Medium.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-Medium.woff) format('woff');
 }
 @font-face {
 	font-family: 'LS Db';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-DemiBold.woff2) format('woff2');
+	src: url(../webfonts/levant_sans/LevantSans-DemiBold.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-DemiBold.woff) format('woff');
 }
 @font-face {
 	font-family: 'LS Bd';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-Bold.woff2) format('woff2');
+	src: url(../webfonts/levant_sans/LevantSans-Bold.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-Bold.woff) format('woff');
 }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -293,7 +293,6 @@ body, input, select, textarea {
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
 	font-weight: normal;
-	letter-spacing: 0;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -435,15 +434,11 @@ h1 {
 	line-height: .9;
 }
 h1.special {
-	font-size: 5.5rem;
-	line-height: .9;
-}
-h1.special_one {
-	font-size: 6rem;
+	font-size: 5rem;
 	line-height: .9;
 }
 h2 {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	line-height: 1.3;
 }
 h2.special {
@@ -536,6 +531,9 @@ hr.block_start {
 hr.block_end {
 	margin: 0.5rem 0;
 }
+.shift_right {
+	margin-right: 3rem;
+}
 .align-left {
 	text-align: left;
 }
@@ -547,7 +545,7 @@ hr.block_end {
 }
  @media screen and (max-width: 1366px) {
 h1.special {
-	font-size: 6.25rem;
+	font-size: 4rem;
 }
 h1, h1.special_one {
 	font-size: 5rem;
@@ -557,13 +555,22 @@ hr.block_start {
 }
 }
  @media screen and (max-width: 1180px) {
+h1.special {
+	font-size: 4rem;
+}
+h2 {
+	font-size: 2.25rem;
+}
 hr.block_start {
 	margin: 4rem 0;
 }
 }
  @media screen and (max-width: 1080px) {
-h2.special_one {
-	font-size: 2rem;
+h1.special {
+	font-size: 3rem;
+}
+.shift_right {
+	margin-right: 0;
 }
 }
  @media screen and (max-width: 768px) {
@@ -578,6 +585,7 @@ hr.block_end {
 p {
 	font-size: 1.35rem;
 	line-height: 1.5;
+	letter-spacing: -0.015rem;
 }
 h1 {
 	font-size: 3.25rem;
@@ -592,8 +600,8 @@ h2.special {
 	font-size: 3.5rem;
 }
 h3 {
-	font-size: 1.65rem;
-	line-height: 1.5;
+	font-size: 1.75rem;
+	line-height: 1.35;
 }
 h4 {
 	font-size: 1.45rem;
@@ -623,7 +631,7 @@ hr.block_space {
 	margin: 4rem 0;
 }
 hr.block_start {
-	margin: 3rem 0;
+	margin: 3.5rem 0;
 }
 }
  @media screen and (max-width: 375px) {
@@ -1983,9 +1991,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 .wrapper.style1 > .inner .block_shift_right {
 	padding-right: 5rem;
-}
-.round_big {
-	border-radius: 3rem;
 }
  @media screen and (max-width: 1366px) {
 .wrapper.style1 > .inner {

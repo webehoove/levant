@@ -36,6 +36,13 @@
 	font-display: swap;
 	src: url(../webfonts/levant/LevantText-Rg.woff2) format('woff2');
 }
+@font-face {
+	font-family: 'LS Nm';
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	src: url(../webfonts/levant/LevantSans-Normal.woff2) format('woff2');
+}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -202,21 +209,21 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 /* Font */
 
-.lt_tx {
+.lt_d {
 	font-family: 'L Lt', sans;
 }
-.rg_tx {
+.rg_d {
 	font-family: 'L Rg', sans;
 }
-.md_tx {
+.md_d {
 	font-family: 'L Md', sans;
 }
-.bd_tx {
+.bd_d {
 	font-family: 'L Bd', sans;
 }
-.rg_tt {
+.rg_tx {
 	font-family: 'LT Rg', Helvetica, sans-serif;
-	font-feature-settings: "ss01";
+	font-feature-settings: "ss01", 0;
 }
 /* Text Color */
 
@@ -254,7 +261,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	letter-spacing: 0;
 }
 .nols_s {
-	letter-spacing: -0.02em;
+	letter-spacing: -0.03em;
 }
 p {
 	font-size: 1.25rem;
@@ -415,6 +422,9 @@ h2.special_one {
  @media screen and (max-width: 768px) {
 hr.block_end {
 	margin: 0;
+}
+.nols_s {
+	letter-spacing: -0.02em;
 }
 }
  @media screen and (max-width: 736px) {

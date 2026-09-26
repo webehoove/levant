@@ -768,7 +768,7 @@ ul.side_menu li {
 	margin: 0.25rem 0 1.25rem 0;
 }
 ul.side_menu li a {
-	color: var(--primary-dblue-180);
+	color: var(--primary-dblue-200);
 }
 ul.side_menu li a:hover {
 	color: var(--primary-dblue-10);

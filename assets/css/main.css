@@ -534,8 +534,16 @@ hr.block_start {
 hr.block_end {
 	margin: 0.5rem 0;
 }
+hr.lineer {
+	border-bottom: 1px solid var(--primary-dblue);
+	margin: 4rem 0 3rem 0;
+	opacity: .25;
+}
 .shift_right {
 	margin-right: 3rem;
+}
+.shift_half {
+	width: 50%;
 }
 .align-left {
 	text-align: left;
@@ -579,6 +587,12 @@ h1.special {
  @media screen and (max-width: 768px) {
 hr.block_end {
 	margin: 0;
+}
+hr.lineer {
+	margin: 3.5rem 0 3rem 0;
+}
+.shift_half {
+	width: 100%;
 }
 .nols_s {
 	letter-spacing: -0.02em;

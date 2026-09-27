@@ -1143,7 +1143,6 @@ ul.t_list li {
 }
 /* Warning List */
 
-
 .box_text_warning {
 	overflow: hidden;
 	-ms-flex-positive: 1;
@@ -1183,6 +1182,10 @@ ul.t_list.warning li {
 	background-size: 2rem;
 }
  @media screen and (max-width: 736px) {
+.box_text_warning {
+	padding: 1.25rem;
+	width: 70%;
+}
 ul li {
 	padding-right: 0.1rem;
 }

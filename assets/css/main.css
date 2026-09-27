@@ -47,7 +47,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-Bold.woff2) format('woff2'), url(../webfonts/levant/Levant-Bold.woff) format('woff');
+	src: url(../webfonts/levant/Levant-Bold.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'L BdIt';
@@ -339,6 +339,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 .bd_d {
 	font-family: 'L Bd', sans;
+	font-variant-ligatures: standard-ligatures discretionary-ligatures;
+    font-feature-settings: "liga" 1, "dlig" 1;
+    -webkit-font-feature-settings: "liga" 1, "dlig" 1;
 }
 .bd_d_it {
 	font-family: 'L BdIt', sans;
@@ -427,6 +430,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 .nols_s {
 	letter-spacing: -0.02em;
+}
+.nols_logo {
+	letter-spacing: -0.03em;
 }
 p {
 	font-size: 1.35rem;

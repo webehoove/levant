@@ -340,8 +340,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .bd_d {
 	font-family: 'L Bd', sans;
 	font-variant-ligatures: standard-ligatures discretionary-ligatures;
-    font-feature-settings: "liga" 1, "dlig" 1;
-    -webkit-font-feature-settings: "liga" 1, "dlig" 1;
+	font-feature-settings: "liga" 1, "dlig" 1;
+	-webkit-font-feature-settings: "liga" 1, "dlig" 1;
 }
 .bd_d_it {
 	font-family: 'L BdIt', sans;
@@ -857,6 +857,12 @@ ul.side_menu li a:hover {
 .color_box_blue {
 	background-color: var(--primary-blue);
 }
+.color_box_grey180 {
+	background-color: var(--primary-grey-180);
+}
+.color_box_grey200 {
+	background-color: var(--primary-grey-200);
+}
 .color_box_white {
 	background-color: var(--primary-white);
 }
@@ -1031,7 +1037,7 @@ button.small, .button.small {
 	display: block;
 }
 .rounded img, .rounded video {
-	border-radius: 4rem;
+	border-radius: 0.5rem;
 }
 .image video {
 	display: block;
@@ -1084,7 +1090,7 @@ button.small, .button.small {
 	width: 100%
 }
 .rounded img, .rounded video {
-	border-radius: 3.5rem;
+	border-radius: 0.5rem;
 }
 }
 /* List */
@@ -1124,6 +1130,57 @@ ul.sm li img {
 }
 ul.sm li:hover img {
 	transform: scale(1.05);
+}
+ @media screen and (max-width: 736px) {
+ul li {
+	padding-right: 0.1rem;
+}
+ul.t_list li {
+	background-size: 1.5rem;
+	font-size: 1.25rem;
+	line-height: 1.15;
+}
+}
+/* Warning List */
+
+
+.box_text_warning {
+	overflow: hidden;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	position: relative;
+	background-color: var(--primary-grey-200);
+	margin: 0;
+	padding: 1.5rem;
+	width: 50%;
+	border-radius: 0.5rem;
+}
+ul.t_list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul.t_list li {
+	background-image: url(../../imgs/icons/icon_warning_text_r.svg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 2rem;
+	font-size: 1.25rem;
+	line-height: 1;
+	display: inline-block;
+	padding-left: 3rem;
+}
+ul.t_list.check li {
+	background-image: url(../../imgs/icons/icon_check_text_g.svg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 2rem;
+}
+ul.t_list.warning li {
+	background-image: url(../../imgs/icons/icon_warning_text_r.svg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 2rem;
 }
  @media screen and (max-width: 736px) {
 ul li {

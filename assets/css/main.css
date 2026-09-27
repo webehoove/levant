@@ -607,7 +607,7 @@ hr.lineer {
  @media screen and (max-width: 736px) {
 p {
 	font-size: 1.35rem;
-	line-height: 1.5;
+	line-height: 1.4;
 	letter-spacing: -0.015rem;
 }
 h1 {
@@ -618,13 +618,15 @@ h1.special {
 }
 h2 {
 	font-size: 2rem;
+	line-height: 1.2;
 }
 h2.special {
 	font-size: 3.5rem;
+	line-height: 1.2;
 }
 h3 {
 	font-size: 1.75rem;
-	line-height: 1.35;
+	line-height: 1.2;
 }
 h4 {
 	font-size: 1.45rem;

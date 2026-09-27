@@ -1160,7 +1160,7 @@ ul.t_list {
 	margin: 0;
 }
 ul.t_list li {
-	background-image: url(../../imgs/icons/icon_warning_text_r.svg);
+	background-image: url(../../imgs/icons/icon_warning_circ_r_r.svg);
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 2rem;
@@ -1170,13 +1170,13 @@ ul.t_list li {
 	padding-left: 3rem;
 }
 ul.t_list.check li {
-	background-image: url(../../imgs/icons/icon_check_text_g.svg);
+	background-image: url(../../imgs/icons/icon_check_circ_g_g.svg);
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 2rem;
 }
 ul.t_list.warning li {
-	background-image: url(../../imgs/icons/icon_warning_text_r.svg);
+	background-image: url(../../imgs/icons/icon_warning_circ_r_r.svg);
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 2rem;

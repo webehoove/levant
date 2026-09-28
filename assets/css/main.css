@@ -5,42 +5,42 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-Light.woff2) format('woff2'), url(../webfonts/levant/Levant-Light.woff) format('woff');
+	src: url(../webfonts/levant/Levant-Light.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'L LtIt';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-LightIt.woff2) format('woff2'), url(../webfonts/levant/Levant-LightIt.woff) format('woff');
+	src: url(../webfonts/levant/Levant-LightIt.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'L Rg';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-Regular.woff2) format('woff2'), url(../webfonts/levant/Levant-Regular.woff) format('woff');
+	src: url(../webfonts/levant/Levant-Regular.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'L RgIt';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-It.woff2) format('woff2'), url(../webfonts/levant/Levant-It.woff) format('woff');
+	src: url(../webfonts/levant/Levant-It.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'L Md';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-Medium.woff2) format('woff2'), url(../webfonts/levant/Levant-Medium.woff) format('woff');
+	src: url(../webfonts/levant/Levant-Medium.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'L MdIt';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-MediumIt.woff2) format('woff2'), url(../webfonts/levant/Levant-MediumIt.woff) format('woff');
+	src: url(../webfonts/levant/Levant-MediumIt.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'L Bd';
@@ -54,51 +54,14 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-BoldIt.woff2) format('woff2'), url(../webfonts/levant/Levant-BoldIt.woff) format('woff');
+	src: url(../webfonts/levant/Levant-BoldIt.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'L XbdIt';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/Levant-ExtraBoldIt.woff2) format('woff2'), url(../webfonts/levant/Levant-ExtraBoldIt.woff) format('woff');
-}
-/*___________Text______________*/
-
-@font-face {
-	font-family: 'LST Bk';
-	font-weight: 100 900;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/levant_sans/Levant-Sans-Book.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'LST It';
-	font-weight: 100 900;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/levant_sans/Levant-Sans-Italic.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'LST Md';
-	font-weight: 200 700;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/levant_sans/Levant-Sans-Medium.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'LST SmIt';
-	font-weight: 200 700;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/levant_sans/Levant-Sans-SemiBolditalic.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'LST Bd';
-	font-weight: 200 700;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/levant_sans/Levant-Sans-Bold.woff2) format('woff2');
+	src: url(../webfonts/levant_sans/Levant-ExtraBoldIt.woff2) format('woff2');
 }
 /*___________Serif______________*/
 
@@ -107,7 +70,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_serif/LevantSerif-Rg.woff2) format('woff2'), url(../webfonts/levant_serif/LevantSerif-Rg.woff) format('woff');
+	src: url(../webfonts/levant_serif/LevantSerif-Rg.woff2) format('woff2');
 }
 /*___________Sans______________*/
 
@@ -116,42 +79,42 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-Light.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-Light.woff) format('woff');
+	src: url(../webfonts/levant_sans/LevantSans-Light.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'LS Rg';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-Regular.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-Regular.woff) format('woff');
+	src: url(../webfonts/levant_sans/LevantSans-Regular.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'LS Nm';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-Normal.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-Normal.woff) format('woff');
+	src: url(../webfonts/levant_sans/LevantSans-Normal.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'LS Md';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-Medium.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-Medium.woff) format('woff');
+	src: url(../webfonts/levant_sans/LevantSans-Medium.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'LS Db';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-DemiBold.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-DemiBold.woff) format('woff');
+	src: url(../webfonts/levant_sans/LevantSans-DemiBold.woff2) format('woff2');
 }
 @font-face {
 	font-family: 'LS Bd';
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/LevantSans-Bold.woff2) format('woff2'), url(../webfonts/levant_sans/LevantSans-Bold.woff) format('woff');
+	src: url(../webfonts/levant_sans/LevantSans-Bold.woff2) format('woff2');
 }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -295,7 +258,6 @@ body, input, select, textarea {
 	text-rendering: optimizeLegibility;
     font-feature-settings: "kern" 1, "liga" 1;
     font-kerning: normal;
-	letter-spacing: -0.02em;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -639,7 +601,7 @@ hr.lineer {
  @media screen and (max-width: 736px) {
 p {
 	font-size: 1.5rem;
-	line-height: 1.35;
+	line-height: 1.4;
 }
 h1 {
 	font-size: 3.25rem;

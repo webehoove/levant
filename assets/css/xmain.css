@@ -77,7 +77,7 @@ ul.bottommenu li {
 	padding-bottom: 1rem;
 }
 ul.bottommenu li.title {
-	font-size: 1.5rem;
+	font-size: 1.65rem;
 	display: block;
 	padding-bottom: 2rem;
 }
@@ -258,7 +258,7 @@ ul.bottommenu li {
 	margin-bottom: 0;
 }
 ul.bottommenu li.title {
-	font-size: 1.65rem;
+	font-size: 2rem;
 	display: block;
 }
 ul.bottommenu_hor li {
@@ -292,7 +292,10 @@ ul.topmenu_right img {
 	vertical-align: -1.15em;
 }
 .logotype_lockup_b {
-	width: 80%;
+	position: relative;
+	width: 7rem;
+	padding-top: 2rem;
+	display: inline-block;
 }
 .offdesk_all, .off_news_desk, .off_news_desk {
 	display: block;

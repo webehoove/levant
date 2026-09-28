@@ -286,7 +286,7 @@ body {
 	color: var(--primary-dblue);
 }
 body, input, select, textarea {
-	font-family: "LST Bk", Helvetica, sans-serif;
+	font-family: "LS Rg", Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -295,6 +295,7 @@ body, input, select, textarea {
 	text-rendering: optimizeLegibility;
     font-feature-settings: "kern" 1, "liga" 1;
     font-kerning: normal;
+	letter-spacing: -0.02em;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -322,77 +323,103 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 /* Font */
 
 .lt_d {
-	font-family: 'L Lt', sans;
+	font-family: 'L Lt', "Georgia", "Times New Roman", serif;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .lt_d_it {
-	font-family: 'L LtIt', sans;
+	font-family: 'L LtIt', "Georgia", "Times New Roman", serif;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .rg_d {
-	font-family: 'L Rg', sans;
+	font-family: 'L Rg', "Georgia", "Times New Roman", serif;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .rg_d_it {
-	font-family: 'L RgIt', sans;
+	font-family: 'L RgIt', "Georgia", "Times New Roman", serif;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .md_d {
-	font-family: 'L Md', sans;
+	font-family: 'L Md', "Georgia", "Times New Roman", serif;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .md_d_it {
-	font-family: 'L MdIt', sans;
+	font-family: 'L MdIt', "Georgia", "Times New Roman", serif;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .bd_d {
-	font-family: 'L Bd', sans;
-	font-weight: 600;
+	font-family: 'L Bd', "Georgia", "Times New Roman", serif;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .bd_d_it {
-	font-family: 'L BdIt', sans;
+	font-family: 'L BdIt', "Georgia", "Times New Roman", serif;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .xbd_d_it {
-	font-family: 'L XbdIt', sans;
-}
-.rg_tx {
-	font-family: 'LT Rg', Helvetica, sans-serif;
-	font-feature-settings: "ss01", 0;
-}
-.nm_tx {
-	font-family: 'LT Nm', Helvetica, sans-serif;
-	font-feature-settings: "ss01", 0;
-}
-.md_tx {
-	font-family: 'LT Md', Helvetica, sans-serif;
-}
-.db_tx {
-	font-family: 'LT Db', Helvetica, sans-serif;
-}
-.bd_tx {
-	font-family: 'LT Bd', Helvetica, sans-serif;
+	font-family: 'L XbdIt', "Georgia", "Times New Roman", serif;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .rg_ts {
-	font-family: 'LSS Rg', Helvetica, sans-serif;
+	font-family: 'LSS Rg', "Georgia", "Times New Roman", serif;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .lt_t {
 	font-family: 'LS Lt', Helvetica, sans-serif;
-	font-feature-settings: "ss02";
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .rg_t {
 	font-family: 'LS Rg', Helvetica, sans-serif;
-	font-feature-settings: "ss02";
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
-.bk_t {
-	font-family: 'LS Rg', Helvetica, sans-serif;
+.nm_t {
+	font-family: 'LS Nm', Helvetica, sans-serif;
 	font-weight: normal;
 	text-rendering: optimizeLegibility;
     font-feature-settings: "kern" 1, "liga" 1;
     font-kerning: normal;
 }
 .md_t {
-	font-family: 'LST Md', Helvetica, sans-serif;
+	font-family: 'LS Md', Helvetica, sans-serif;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
+}
+.db_t {
+	font-family: 'LS Db', Helvetica, sans-serif;
 	font-weight: normal;
 	text-rendering: optimizeLegibility;
     font-feature-settings: "kern" 1, "liga" 1;
     font-kerning: normal;
 }
 .bd_t {
-	font-family: 'LST Bd', Helvetica, sans-serif;
+	font-family: 'LS Bd', Helvetica, sans-serif;
 	font-weight: normal;
 	text-rendering: optimizeLegibility;
     font-feature-settings: "kern" 1, "liga" 1;
@@ -441,7 +468,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 p {
 	font-size: 1.35rem;
-	line-height: 1.35;
+	line-height: 1.2;
 }
 h1 {
 	font-size: 6.5rem;
@@ -612,7 +639,7 @@ hr.lineer {
  @media screen and (max-width: 736px) {
 p {
 	font-size: 1.5rem;
-	line-height: 1.3;
+	line-height: 1.35;
 }
 h1 {
 	font-size: 3.25rem;
@@ -625,11 +652,11 @@ h2 {
 	line-height: 1.2;
 }
 h2.special {
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 	line-height: 1.2;
 }
 h3 {
-	font-size: 1.8rem;
+	font-size: 1.75rem;
 	line-height: 1.2;
 }
 h4 {

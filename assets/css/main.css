@@ -430,7 +430,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 p {
 	font-size: 1.35rem;
-	line-height: 1.2;
+	line-height: 1.35;
 }
 h1 {
 	font-size: 6.5rem;
@@ -604,7 +604,7 @@ hr.lineer {
 }
  @media screen and (max-width: 736px) {
 p {
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	line-height: 1.4;
 }
 h1 {

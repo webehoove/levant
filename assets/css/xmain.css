@@ -273,8 +273,9 @@ ul.bottommenu_hor li {
 }
  @media screen and (max-width: 736px) {
 #logotype_sym {
-	width: 4rem;
-	top: -1.75rem;
+	width: 4.5rem;
+	top: -2.1rem;
+	margin-bottom: -1rem;
 }
 ul.topmenu_wm {
 	font-size: 2rem;

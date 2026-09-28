@@ -61,44 +61,16 @@
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/Levant-ExtraBoldIt.woff2) format('woff2'), url(../webfonts/levant/Levant-ExtraBoldIt.woff) format('woff');
+	src: url(../webfonts/levant_sans/Levant-ExtraBoldIt.woff2) format('woff2'), url(../webfonts/levant/Levant-ExtraBoldIt.woff) format('woff');
 }
 /*___________Text______________*/
 
 @font-face {
-	font-family: 'LT Rg';
-	font-weight: normal;
+	font-family: 'LT Vr';
+	font-weight: 100 900;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant/LevantText-Rg.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'LT Nm';
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/levant/LevantText-Normal.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'LT Md';
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/levant/LevantText-Md.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'LT Db';
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/levant/LevantText-Db.woff2) format('woff2');
-}
-@font-face {
-	font-family: 'LT Bd';
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-	src: url(../webfonts/levant/LevantText-Bd.woff2) format('woff2');
+	src: url(../webfonts/levant_sans/Levant-Sans-Variable.woff2) format('woff2');
 }
 /*___________Serif______________*/
 
@@ -286,13 +258,12 @@ body {
 	color: var(--primary-dblue);
 }
 body, input, select, textarea {
-	font-family: "LS Rg", Helvetica, sans-serif;
-	font-feature-settings: "ss02";
+	font-family: "LT Vr", Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
-	font-weight: normal;
+	font-weight: 375;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -339,9 +310,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 .bd_d {
 	font-family: 'L Bd', sans;
-	font-variant-ligatures: standard-ligatures discretionary-ligatures;
-	font-feature-settings: "liga" 1, "dlig" 1;
-	-webkit-font-feature-settings: "liga" 1, "dlig" 1;
+	font-weight: 600;
 }
 .bd_d_it {
 	font-family: 'L BdIt', sans;
@@ -392,6 +361,26 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .bd_t {
 	font-family: 'LS Bd', Helvetica, sans-serif;
 	font-feature-settings: "ss02";
+}
+.vr_bk_t {
+	font-family: 'LT Vr', Helvetica, sans-serif;
+	font-weight: 375;
+}
+.vr_rg_t {
+	font-family: 'LT Vr', Helvetica, sans-serif;
+	font-weight: 400;
+}
+.vr_md_t {
+	font-family: 'LT Vr', Helvetica, sans-serif;
+	font-weight: 500;
+}
+.vr_bk_tx {
+	font-family: 'LTX Vr', Helvetica, sans-serif;
+	font-weight: 375;
+}
+.vr_rg_tx {
+	font-family: 'LTX Vr', Helvetica, sans-serif;
+	font-weight: 400;
 }
 /* Text Color */
 

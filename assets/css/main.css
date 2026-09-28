@@ -66,11 +66,39 @@
 /*___________Text______________*/
 
 @font-face {
-	font-family: 'LT Vr';
+	font-family: 'LST Bk';
 	font-weight: 100 900;
 	font-style: normal;
 	font-display: swap;
-	src: url(../webfonts/levant_sans/Levant-Sans-Variable.woff2) format('woff2');
+	src: url(../webfonts/levant_sans/Levant-Sans-Book.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'LST It';
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+	src: url(../webfonts/levant_sans/Levant-Sans-Italic.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'LTX Md';
+	font-weight: 200 700;
+	font-style: normal;
+	font-display: swap;
+	src: url(../webfonts/levant_sans/Levant-Sans-Medium.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'LTX SmIt';
+	font-weight: 200 700;
+	font-style: normal;
+	font-display: swap;
+	src: url(../webfonts/levant_sans/Levant-Sans-SemiBolditalic.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'LTX Bd';
+	font-weight: 200 700;
+	font-style: normal;
+	font-display: swap;
+	src: url(../webfonts/levant_sans/Levant-Sans-Bold.woff2) format('woff2');
 }
 /*___________Serif______________*/
 
@@ -258,12 +286,15 @@ body {
 	color: var(--primary-dblue);
 }
 body, input, select, textarea {
-	font-family: "LT Vr", Helvetica, sans-serif;
+	font-family: "LST Bk", Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
-	font-weight: 375;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -346,41 +377,26 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-family: 'LS Rg', Helvetica, sans-serif;
 	font-feature-settings: "ss02";
 }
-.nm_t {
-	font-family: 'LS Nm', Helvetica, sans-serif;
-	font-feature-settings: "ss02";
+.bk_t {
+	font-family: 'LST Bk', Helvetica, sans-serif;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .md_t {
-	font-family: 'LS Md', Helvetica, sans-serif;
-	font-feature-settings: "ss02";
-}
-.db_t {
-	font-family: 'LS Db', Helvetica, sans-serif;
-	font-feature-settings: "ss02";
+	font-family: 'LST Md', Helvetica, sans-serif;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 .bd_t {
-	font-family: 'LS Bd', Helvetica, sans-serif;
-	font-feature-settings: "ss02";
-}
-.vr_bk_t {
-	font-family: 'LT Vr', Helvetica, sans-serif;
-	font-weight: 375;
-}
-.vr_rg_t {
-	font-family: 'LT Vr', Helvetica, sans-serif;
-	font-weight: 400;
-}
-.vr_md_t {
-	font-family: 'LT Vr', Helvetica, sans-serif;
-	font-weight: 500;
-}
-.vr_bk_tx {
-	font-family: 'LTX Vr', Helvetica, sans-serif;
-	font-weight: 375;
-}
-.vr_rg_tx {
-	font-family: 'LTX Vr', Helvetica, sans-serif;
-	font-weight: 400;
+	font-family: 'LST Bd', Helvetica, sans-serif;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
+    font-kerning: normal;
 }
 /* Text Color */
 
@@ -425,7 +441,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 p {
 	font-size: 1.35rem;
-	line-height: 1.5;
+	line-height: 1.35;
 }
 h1 {
 	font-size: 6.5rem;
@@ -595,9 +611,8 @@ hr.lineer {
 }
  @media screen and (max-width: 736px) {
 p {
-	font-size: 1.4rem;
-	line-height: 1.4;
-	letter-spacing: -0.015rem;
+	font-size: 1.35rem;
+	line-height: 1.35;
 }
 h1 {
 	font-size: 3.25rem;

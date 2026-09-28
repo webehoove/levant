@@ -378,7 +378,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-feature-settings: "ss02";
 }
 .bk_t {
-	font-family: 'LST Bk', Helvetica, sans-serif;
+	font-family: 'LS Rg', Helvetica, sans-serif;
 	font-weight: normal;
 	text-rendering: optimizeLegibility;
     font-feature-settings: "kern" 1, "liga" 1;

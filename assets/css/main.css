@@ -1090,7 +1090,7 @@ button.small, .button.small {
 	width: 100%
 }
 .rounded img, .rounded video {
-	border-radius: 0.5rem;
+	border-radius: 0.35rem;
 }
 }
 /* List */
@@ -1185,6 +1185,7 @@ ul.t_list.warning li {
 .box_text_warning {
 	padding: 1.25rem;
 	width: 70%;
+	border-radius: 0.35rem;
 }
 ul li {
 	padding-right: 0.1rem;

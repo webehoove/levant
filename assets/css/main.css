@@ -80,21 +80,21 @@
 	src: url(../webfonts/levant_sans/Levant-Sans-Italic.woff2) format('woff2');
 }
 @font-face {
-	font-family: 'LTX Md';
+	font-family: 'LST Md';
 	font-weight: 200 700;
 	font-style: normal;
 	font-display: swap;
 	src: url(../webfonts/levant_sans/Levant-Sans-Medium.woff2) format('woff2');
 }
 @font-face {
-	font-family: 'LTX SmIt';
+	font-family: 'LST SmIt';
 	font-weight: 200 700;
 	font-style: normal;
 	font-display: swap;
 	src: url(../webfonts/levant_sans/Levant-Sans-SemiBolditalic.woff2) format('woff2');
 }
 @font-face {
-	font-family: 'LTX Bd';
+	font-family: 'LST Bd';
 	font-weight: 200 700;
 	font-style: normal;
 	font-display: swap;
@@ -436,8 +436,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .nols_s {
 	letter-spacing: -0.02em;
 }
-.nols_logo {
-	letter-spacing: -0.03em;
+.nols_w {
+	letter-spacing: 0.02em;
 }
 p {
 	font-size: 1.35rem;

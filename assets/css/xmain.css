@@ -248,10 +248,13 @@ ul.topmenu_wm {
 	top: 1.5rem;
 }
 .logotype_lockup_b {
-	width: 18rem;
+	position: relative;
+	width: 7rem;
+	top: -1rem;
+	display: inline-block;
 }
 ul.bottommenu {
-	padding-bottom: 2rem;
+	padding-bottom: 2rem;=
 }
 ul.bottommenu li {
 	font-size: 1.35rem;
@@ -296,6 +299,12 @@ ul.topmenu_right img {
 	width: 7rem;
 	padding-top: 2rem;
 	display: inline-block;
+	left: 50%; 
+	transform: translateX(-50%);
+}
+ul.bottommenu {
+	padding-bottom: 2rem;
+	text-align: center;
 }
 .offdesk_all, .off_news_desk, .off_news_desk {
 	display: block;

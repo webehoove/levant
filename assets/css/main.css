@@ -924,16 +924,18 @@ a:active, a:visited:active {
 	align-items: center;
 	width: auto;
 }
-.text_link_download_s li {
-	padding-top: 0.3rem;
-}
 .text_link_download_s li.a_left {
+	padding-top: 0.3rem;
 	padding-right: 0.6rem;
 }
 .text_link_download_s li.a_left img.l_icon {
 	width: 2rem;
 }
  @media screen and (max-width: 736px) {
+.text_link_download_s li.a_left, .text_link_download_s li p {
+	padding-top: 0.5rem;
+	padding-right: 0.6rem;
+}
 .text_link_icon li.a_right img.r_icon {
 	width: 2rem;
 }
@@ -1030,6 +1032,10 @@ ul.side_menu li a:hover {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+}
+.box_text .block_inside_small {
+	position: relative;
+	width: 5%;
 }
 .box_grid_inside_x {
 	display: flex;
@@ -1174,12 +1180,12 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 }
 button.large, .button.large {
 	font-size: 1.5rem;
-	line-height: 3;
 	height: 4.5rem;
 	display: flex;
+	align-items: center;
 	justify-content: center;
 	width: auto;
-	border-radius: 1.35rem;
+	border-radius: 0.3rem;
 	padding: 0 1.6rem;
 	text-align: center;
 }
@@ -1188,14 +1194,14 @@ button.large:hover, .button.large:hover {
 }
 button.medium, .button.medium {
 	font-size: 1.15rem;
-	line-height: 2.8;
 	width: auto;
 	height: 3rem;
 	display: flex;
+	align-items: center;
 	justify-content: center;
 	padding: 0 1rem;
 	text-align: center;
-	border-radius: 1rem;
+	border-radius: 0.3rem;
 }
 button.medium:hover, .button.medium:hover {
 	border-radius: 1.75rem;
@@ -1204,13 +1210,13 @@ button.medium.dropmenu, .button.medium.dropmenu {
 	padding: 0 2.75rem 0 1.25rem;
 }
 button.small, .button.small {
-	font-size: 0.85rem;
+	font-size: 1rem;
 	height: 3rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: auto;
-	border-radius: 1rem;
+	border-radius: 0.3rem;
 	padding: 0 1.25rem;
 	margin-bottom: 0.35rem;
 	text-align: center;
@@ -1239,7 +1245,7 @@ button.dblue, .button.dblue {
 	color: rgba(255, 255, 255, 1) !important;
 }
 button.dblue:hover, .button.dblue:hover {
-	background-color: var(--primary-bblue) !important;
+	background-color: var(--primary-dblue-10) !important;
 	color: rgba(255, 255, 255, 1) !important;
 }
 button.dblue:active, .button.dblue:active {
@@ -1267,7 +1273,7 @@ button.large_a, .button.large_a, .button.large_a_dred, .button.large_a_npurple {
 	width: 100%;
 }
 button.small, .button.small {
-	font-size: 0.8rem;
+	font-size: 1rem;
 	padding: 0 1.2rem;
 }
 }
@@ -2089,18 +2095,18 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	padding: 0;
 	margin: 0 auto;
 	width: 100%;
-	-moz-align-items: left;
-	-webkit-align-items: left;
-	-ms-align-items: left;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
 	align-items: left;
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-	-moz-justify-content: left;
-	-webkit-justify-content: left;
-	-ms-justify-content: left;
-	justify-content: left;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
 	background-color: inherit;
 	position: relative;
 	overflow-x: hidden;
@@ -2115,7 +2121,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 .banner.style2 .content video {
 	width: 100%;
-	height: auto;
+	height: 80svh;
 }
  @media screen and (max-width: 1920px) {
 .banner.style2 .content {
@@ -2139,7 +2145,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 .banner.style2 .content video {
 	width: 100%;
-	height: auto;
+	height: 80svh;
 }
 }
 .banner.style2.fullscreen {

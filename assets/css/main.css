@@ -924,11 +924,14 @@ a:active, a:visited:active {
 	align-items: center;
 	width: auto;
 }
+.text_link_download_s li {
+	padding-top: 0.3rem;
+}
 .text_link_download_s li.a_left {
 	padding-right: 0.6rem;
 }
 .text_link_download_s li.a_left img.l_icon {
-	width: 2.3rem;
+	width: 2rem;
 }
  @media screen and (max-width: 736px) {
 .text_link_icon li.a_right img.r_icon {

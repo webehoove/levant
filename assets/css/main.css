@@ -624,7 +624,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	letter-spacing: 0;
 }
 .nols_s {
-	letter-spacing: -0.02em;
+	letter-spacing: -0.01em;
 }
 p {
 	font-size: 1.35rem;
@@ -822,7 +822,7 @@ hr.lineer {
 	width: 100%;
 }
 .nols_s {
-	letter-spacing: -0.025em;
+	letter-spacing: -0.01em;
 }
 }
  @media screen and (max-width: 736px) {
@@ -838,6 +838,7 @@ h1.special {
 }
 h1.special_x {
 	font-size: 4.75rem;
+	font-optical-sizing: none;
 }
 h2 {
 	font-size: 1.85rem;

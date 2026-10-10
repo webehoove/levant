@@ -64,11 +64,29 @@
 :root {
  --primary-red-200: rgba(252, 69, 112, 1);
 }
+:root {
+ --primary-grey-10: rgba(83, 86, 90, 1);
+}
+:root {
+ --primary-grey-120: rgba(151, 153, 155, 1);
+}
+:root {
+ --primary-grey-150: rgba(200, 201, 199, 1);
+}
+:root {
+ --primary-grey-180: rgba(236, 237, 238, 1);
+}
+:root {
+ --primary-grey-200: rgba(246, 247, 249, 1);
+}
 
 
 
 :root {
  --primary-dblack: rgba(5, 5, 15, 1);
+}
+:root {
+ --primary-lwhite: rgba(250, 250, 250, 1);
 }
 :root {
  --primary-white: rgba(255, 255, 255, 1);

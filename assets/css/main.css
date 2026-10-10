@@ -46,7 +46,7 @@
 	font-family: 'L Bd';
 	font-weight: normal;
 	font-style: normal;
-	font-display: swap;
+	font-display: block;
 	src: url(../webfonts/levant/Levant-Bold.woff2) format('woff2');
 }
 @font-face {

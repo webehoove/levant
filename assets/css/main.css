@@ -1638,9 +1638,9 @@ ul.t_list li {
 	position: relative;
 	background-color: var(--primary-grey-200);
 	margin: 0;
-	padding: 1.5rem;
+	padding: 1.5rem 1.25rem;
 	width: 50%;
-	border-radius: 0.5rem;
+	border-radius: 0.2rem;
 }
 ul.t_list {
 	list-style: none;

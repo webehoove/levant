@@ -159,7 +159,7 @@
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .wrapper_menu .title a {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	line-height: 2.2;
 	height: 3rem;
 	margin: 0;

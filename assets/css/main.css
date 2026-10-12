@@ -2458,7 +2458,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	overflow: hidden;
 	z-index: 2;
 }
-.banner.style5 .content.medium {
+.banner.style5 .content .medium {
 	width: 70%;
 }
 .banner.style5 .content .block_bottom {
@@ -2519,6 +2519,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .banner.style5.fullscreen {
 	min-height: 100vh;
 }
+.banner.style5.fullscreen90 {
+	min-height: 100vh;
+}
 .banner.style5.fullscreen80 {
 	min-height: 100vh;
 }
@@ -2552,8 +2555,11 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 }
  @media screen and (max-width: 736px) {
-.banner.style5 .content.medium {
+.banner.style5 .content .medium {
 	width: 98%;
+}
+.banner.style5.fullscreen90 {
+	min-height: 90vh;
 }
 .banner.style5.fullscreen80 {
 	min-height: 80vh;
@@ -2877,7 +2883,10 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	background-color: var(--primary-blue);
 }
 #wrapper > .color_grad_db10_db {
-	background: linear-gradient(to bottom, var(--primary-dblue-10), var(--primary-dblue));
+	background: linear-gradient(135deg, var(--primary-dblue-10), var(--primary-dblue));
+}
+#wrapper > .color_grad_db10_db150 {
+	background: linear-gradient(135deg, var(--primary-dblue-10), var(--primary-dblue-150));
 }
 #wrapper.divided > * {
 	box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0);

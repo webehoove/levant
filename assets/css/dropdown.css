@@ -1,0 +1,54 @@
+/* Dropdown */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+/* Style the button */
+.dropbtn {
+	background-image: url(../../imgs/icons/icon_arrow_down_drop_but_db.svg);
+	background-repeat: no-repeat;
+	background-position: right center; /* Adjusted position so arrow doesn't stick to edge */
+	position: relative;
+	background-color: inherit;
+	color: var(--primary-white);
+	width: auto;
+	padding-right: 1.15rem;
+	margin-bottom: 0.5rem;
+	border: none;
+	cursor: pointer;
+}
+.dropbtn:hover {
+	background-image: url(../../imgs/icons/icon_arrow_down_drop_but_db.svg);
+}
+/* Hide the dropdown menu by default */
+.dropdown-content {
+	display: none;
+	text-align: left;
+	position: absolute;
+	background-color: var(--primary-dblue-10);
+	width: 102%;
+	margin-top: 0;
+	padding: 0.6rem 0 0.8rem 0;
+	z-index: 1;
+	border-radius: 0.25rem;
+}
+/* Style the links inside the dropdown */
+.dropdown-content a {
+	font-size: 1rem;
+	color: var(--primary-white);
+	text-decoration: none;
+	display: flex;
+	margin: 0 1rem;
+	padding: 0.6rem 0;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	color: var(--primary-white);
+}
+/* Show the dropdown menu when hovering over the container */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+/* Change button color when the dropdown is active */
+.dropdown:hover .dropbtn {
+}

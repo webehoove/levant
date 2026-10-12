@@ -1,0 +1,26 @@
+.side_menu {
+	width: 100%;
+	transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+	will-change: transform;
+}
+.side_menu a {
+	font-size: 1.1rem;
+}
+.side_menu.is-fixed {
+	position: fixed;
+	top: 2rem;
+	width: var(--sidebar-width, 300px);
+	transform: translateY(0);
+}
+@media (max-width: 1180px) {
+.side_menu.is-fixed.has-nav {
+	transform: translateY(7rem);
+}
+}
+.side_menu.is-bottom {
+	position: absolute;
+	bottom: 0;
+	top: auto;
+	width: 100%;
+	transform: translateY(0);
+}

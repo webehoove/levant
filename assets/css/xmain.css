@@ -203,11 +203,11 @@ ul.bottommenu {
 	padding-bottom: 2rem;
 }
 ul.bottommenu li {
-	font-size: 1.2rem;
+	font-size: 1.35rem;
 	margin-bottom: 0;
 }
 ul.bottommenu li.title {
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	display: block;
 }
 ul.bottommenu_hor li {
@@ -246,7 +246,7 @@ ul.topmenu_right img {
 }
 .logotype_lockup_b {
 	position: relative;
-	width: 7rem;
+	width: 7.5rem;
 	padding-top: 3.35rem;
 	display: inline-block;
 	left: 50%;
@@ -256,15 +256,15 @@ ul.mapmenu {
 	margin-top: -1rem;
 }
 ul.bottommenu {
-	padding-bottom: 2rem;
+	padding-bottom: 0;
 	text-align: center;
 }
 ul.bottommenu li {
-	font-size: 1.35rem;
+	font-size: 1.45rem;
 	margin-bottom: 0;
 }
 ul.bottommenu li.title {
-	font-size: 1.5rem;
+	font-size: 1.65rem;
 	display: block;
 }
 .offdesk_all, .off_news_desk, .off_news_desk {

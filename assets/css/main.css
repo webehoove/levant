@@ -1220,6 +1220,11 @@ ul.side_menu li a:hover {
 	flex-direction: column;
 	width: 100%;
 }
+.box_grid .block_title {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
 .box_text .block_inside_small {
 	position: relative;
 	width: 5%;
@@ -2458,7 +2463,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	overflow: hidden;
 	z-index: 2;
 }
-.banner.style5 .content .medium {
+.banner.style5 .content.medium {
 	width: 70%;
 }
 .banner.style5 .content .block_bottom {
@@ -2555,7 +2560,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 }
  @media screen and (max-width: 736px) {
-.banner.style5 .content .medium {
+.banner.style5 .content.medium {
 	width: 98%;
 }
 .banner.style5.fullscreen90 {

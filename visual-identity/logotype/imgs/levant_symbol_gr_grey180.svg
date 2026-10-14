@@ -99,11 +99,10 @@
 		l-0.812,0.896c-24.379,26.89-53.049,52.007-85.214,74.654c-30.456,21.444-63.376,40.272-97.846,55.962L999.999,1700
 		L988.887,1694.943z"/>
 	<radialGradient id="SVGID_1_" cx="629.941" cy="621.8964" r="1274.5967" gradientUnits="userSpaceOnUse">
-		<stop  offset="0.0017" style="stop-color:#FCD97A"/>
-		<stop  offset="0.238" style="stop-color:#F9B843"/>
-		<stop  offset="0.4541" style="stop-color:#F9B843"/>
-		<stop  offset="0.8508" style="stop-color:#F87C28"/>
-		<stop  offset="1" style="stop-color:#C45A14"/>
+		<stop  offset="0.0017" style="stop-color:#F9D45D"/>
+		<stop  offset="0.1948" style="stop-color:#F9B843"/>
+		<stop  offset="0.4811" style="stop-color:#F9B843"/>
+		<stop  offset="1" style="stop-color:#F2731D"/>
 	</radialGradient>
 	<path class="st2" d="M1306.794,1553.472c-49.344,0-95.42-7.466-136.95-22.189c-46.601-16.522-87.612-42.281-121.891-76.561
 		c-22.096-22.095-38.528-46.692-47.953-71.661c-9.425,24.97-25.857,49.566-47.952,71.661
@@ -256,7 +255,7 @@
 		<radialGradient id="SVGID_7_" cx="688.5079" cy="680.4634" r="1143.3895" gradientUnits="userSpaceOnUse">
 			<stop  offset="0" style="stop-color:#FC4570"/>
 			<stop  offset="0.2466" style="stop-color:#F42C52"/>
-			<stop  offset="0.5493" style="stop-color:#DE1936"/>
+			<stop  offset="0.6088" style="stop-color:#DE1936"/>
 			<stop  offset="1" style="stop-color:#A5121E"/>
 		</radialGradient>
 		<path class="st12" d="M1213.913,505.237c36.414-5.234,84.966,1.31,111.392,40.339c5.147,7.601,8.22,15.286,9.265,22.54

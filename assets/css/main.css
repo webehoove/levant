@@ -639,6 +639,21 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .t_color_b {
 	color: var(--primary-blue);
 }
+.t_color_b10 {
+	color: var(--primary-blue-10);
+}
+.t_color_b120 {
+	color: var(--primary-blue-120);
+}
+.t_color_b150 {
+	color: var(--primary-blue-150);
+}
+.t_color_b180 {
+	color: var(--primary-blue-180);
+}
+.t_color_b200 {
+	color: var(--primary-blue-200);
+}
 .t_color_g10 {
 	color: var(--primary-green-10);
 }

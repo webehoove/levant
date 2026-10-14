@@ -363,6 +363,7 @@ body, input, select, textarea {
 	text-rendering: optimizeLegibility;
 	font-feature-settings: "kern" 1, "liga" 1;
 	font-kerning: normal;
+	letter-spacing: 0;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -2561,7 +2562,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 736px) {
 .banner.style5 .content.medium {
-	width: 98%;
+	width: 100%;
 }
 .banner.style5.fullscreen90 {
 	min-height: 90vh;

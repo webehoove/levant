@@ -20,6 +20,21 @@
  --primary-blue: rgba(66, 163, 213, 1);
 }
 :root {
+ --primary-blue-10: rgba(0, 82, 133, 1);
+}
+:root {
+ --primary-blue-120: rgba(6, 110, 167, 1);
+}
+:root {
+ --primary-blue-150: rgba(21, 136, 196, 1);
+}
+:root {
+ --primary-blue-180: rgba(66, 163, 213, 1);
+}
+:root {
+ --primary-blue-200: rgba(90, 198, 237, 1);
+}
+:root {
  --primary-green-10: rgba(6, 64, 44, 1);
 }
 :root {

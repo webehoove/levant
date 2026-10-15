@@ -35,6 +35,9 @@
  --primary-blue-200: rgba(90, 198, 237, 1);
 }
 :root {
+ --primary-blue-600: rgba(135, 235, 500, 1);
+}
+:root {
  --primary-green-10: rgba(6, 64, 44, 1);
 }
 :root {
@@ -48,6 +51,9 @@
 }
 :root {
  --primary-green-200: rgba(75, 170, 122, 1);
+}
+:root {
+ --primary-green-600: rgba(120, 220, 185, 1);
 }
 :root {
  --primary-orange-10: rgba(196, 90, 20, 1);
@@ -65,6 +71,9 @@
  --primary-orange-200: rgba(249, 212, 93, 1);
 }
 :root {
+ --primary-orange-600: rgba(255, 236, 140, 1);
+}
+:root {
  --primary-red-10: rgba(165, 18, 30, 1);
 }
 :root {
@@ -80,13 +89,16 @@
  --primary-red-200: rgba(252, 69, 112, 1);
 }
 :root {
+ --primary-red-600: rgba(255, 182, 220, 1);
+}
+:root {
  --primary-grey-10: rgba(83, 86, 90, 1);
 }
 :root {
  --primary-grey-120: rgba(151, 153, 155, 1);
 }
 :root {
- --primary-grey-150: rgba(200, 201, 199, 1);
+ --primary-grey-150: rgba(200, 201, 203, 1);
 }
 :root {
  --primary-grey-180: rgba(236, 237, 238, 1);

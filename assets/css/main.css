@@ -896,7 +896,10 @@ hr.lineer_block {
 .align-center {
 	text-align: center;
 }
-.align-right {
+.align-center-offdesk {
+	text-align: left;
+}
+}.align-right {
 	text-align: right;
 }
  @media screen and (max-width: 1366px) {
@@ -1026,6 +1029,9 @@ hr.block_start {
 }
 hr.lineer_block {
 	margin: 1.5rem 0 1.5rem 0;
+}
+.align-center-offdesk {
+	text-align: center;
 }
 }
 a {

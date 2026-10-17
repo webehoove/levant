@@ -31,7 +31,8 @@
 	margin-top: -5rem;
 	margin-left: -20px;      
 	margin-right: -20px;
-	margin-bottom: 2rem;   
+	margin-bottom: 2rem; 
+	padding-right: 3rem;  
 	z-index: 3;
 	overflow-x: auto;
 	-webkit-overflow-scrolling: touch;
@@ -60,6 +61,7 @@ ul.side_menu li a {
 	position: fixed;
 	top: 0;
 	margin-top: 0;
+	padding-right: 0; 
 	width: var(--sidebar-width, 100vw);
 	transform: translateY(0);
 }

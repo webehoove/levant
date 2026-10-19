@@ -180,6 +180,20 @@
 	src: url(../webfonts/levant_serif/LevantSerif-It.woff2) format('woff2');
 }
 @font-face {
+	font-family: 'LSS Nm';
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	src: url(../webfonts/levant_serif/LevantSerif-Nm.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'LSS NmIt';
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	src: url(../webfonts/levant_serif/LevantSerif-Nmlt.woff2) format('woff2');
+}
+@font-face {
 	font-family: 'LSS Md';
 	font-weight: normal;
 	font-style: normal;
@@ -354,7 +368,7 @@ body {
 	color: var(--primary-dblue);
 }
 body, input, select, textarea {
-	font-family: "LS Rg", Helvetica, sans-serif;
+	font-family: "LSS Rg", Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -733,7 +747,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	letter-spacing: 0;
 }
 .nols_s {
-	letter-spacing: -0.01em;
+	letter-spacing: -0.02em;
 }
 p {
 	font-size: 1.35rem;
@@ -793,6 +807,10 @@ h5 {
 }
 h6 {
 	font-size: 1rem;
+	line-height: 1.2;
+}
+h6.title {
+	font-size: 1.25rem;
 	line-height: 1.2;
 }
 sub {
@@ -978,7 +996,7 @@ h2 {
 	line-height: 1.2;
 }
 h2.title {
-	font-size: 2.4rem;
+	font-size: 2.65rem;
 	line-height: 1.1;
 }
 h2.special {
@@ -1005,6 +1023,9 @@ h5 {
 }
 h6 {
 	font-size: 1.15rem;
+}
+h6.title {
+	font-size: 1rem;
 }
 hr {
 	margin: 1.35rem 0;
@@ -1124,8 +1145,7 @@ a:active, a:visited:active {
 	padding-right: 0.8rem;
 }
 .text_link_icon li.a_left img.l_icon {
-	width: 1.75rem;
-	margin-top: 0.15rem;
+	width: 2rem;
 }
 .text_link_download {
 	position: relative;
@@ -1134,14 +1154,14 @@ a:active, a:visited:active {
 	width: auto;
 }
 .text_link_download a {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 .text_link_download li.a_left {
 	padding-right: 1rem;
 }
 .text_link_download li.a_left img.l_icon {
-	width: 2.25rem;
-	margin-top: 0.25rem;
+	width: 2rem;
+	margin-top: 0;
 }
 .text_link_download_s {
 	position: relative;
@@ -1158,7 +1178,6 @@ a:active, a:visited:active {
 }
  @media screen and (max-width: 736px) {
 .text_link_download_s li.a_left, .text_link_download_s li p {
-	padding-top: 0.5rem;
 	padding-right: 0.6rem;
 }
 }
@@ -2966,6 +2985,39 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .color_blue {
 	background-color: var(--primary-blue);
+}
+#wrapper > .color_blue10 {
+	background-color: var(--primary-blue-10);
+}
+#wrapper > .color_blue120 {
+	background-color: var(--primary-blue-120);
+}
+#wrapper > .color_blue150 {
+	background-color: var(--primary-blue-150);
+}
+#wrapper > .color_blue180 {
+	background-color: var(--primary-blue-180);
+}
+#wrapper > .color_blue200 {
+	background-color: var(--primary-blue-200);
+}
+#wrapper > .color_blue600 {
+	background-color: var(--primary-blue-600);
+}
+#wrapper > .color_grey10 {
+	background-color: var(--primary-grey-10);
+}
+#wrapper > .color_grey120 {
+	background-color: var(--primary-grey-120);
+}
+#wrapper > .color_grey150 {
+	background-color: var(--primary-grey-150);
+}
+#wrapper > .color_grey180 {
+	background-color: var(--primary-grey-180);
+}
+#wrapper > .color_grey200 {
+	background-color: var(--primary-grey-200);
 }
 #wrapper > .color_grad_db10_db {
 	background: linear-gradient(135deg, var(--primary-dblue-10), var(--primary-dblue));

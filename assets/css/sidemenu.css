@@ -4,7 +4,7 @@
 	will-change: transform;
 }
 .side_menu a {
-	font-size: 1.1rem;
+	font-size: 1.25rem;
 }
 .side_menu.is-fixed {
 	position: fixed;

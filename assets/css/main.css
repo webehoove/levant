@@ -1058,6 +1058,18 @@ hr.lineer_block {
 .align-center-offdesk {
 	text-align: center;
 }
+/* For mob Hyphens */
+.hyph {
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	overflow-wrap: break-word;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "liga" 1, "kern" 1;
+}
+.hyph_no {
+	hyphens: none;
+	-webkit-hyphens: none;
+}
 }
 a {
 	color: inherit;

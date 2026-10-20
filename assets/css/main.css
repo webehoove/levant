@@ -924,6 +924,10 @@ hr.lineer_block {
 .align-right {
 	text-align: right;
 }
+.hyph {
+	hyphens: none;
+	-webkit-hyphens: none;
+}
  @media screen and (max-width: 1366px) {
 h1.special {
 	font-size: 4rem;
@@ -1058,6 +1062,8 @@ hr.lineer_block {
 .align-center-offdesk {
 	text-align: center;
 }
+}
+ @media screen and (max-width: 768px) {
 .hyph {
 	hyphens: auto;
 	-webkit-hyphens: auto;

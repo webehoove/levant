@@ -1058,7 +1058,6 @@ hr.lineer_block {
 .align-center-offdesk {
 	text-align: center;
 }
-/* For mob Hyphens */
 .hyph {
 	hyphens: auto;
 	-webkit-hyphens: auto;
